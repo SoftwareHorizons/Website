@@ -1,0 +1,315 @@
+/*Noto Sans*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap");
+/*Roboto*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*--Animations--*/
+@-webkit-keyframes openanimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes openanimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-animation: openanimation 0.5s ease forwards;
+          animation: openanimation 0.5s ease forwards;
+}
+
+img {
+  max-width: 550px;
+  -webkit-filter: drop-shadow(9px 0px 129px rgba(8, 113, 224, 0.25));
+          filter: drop-shadow(9px 0px 129px rgba(8, 113, 224, 0.25));
+  -webkit-user-drag: none;
+}
+
+/*--Scrollbar--*/
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaa9a9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+
+/*--NavBar--*/
+.navbar {
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  margin-left: 3%;
+}
+
+.collapse {
+  margin-right: 3%;
+  float: right;
+}
+
+.nav-link {
+  float: right;
+}
+
+/*--Banner--*/
+.banner {
+  border: none;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(108.17deg, #DDE0FF -12.9%, #FDFFFF 164.11%);
+  padding: 50px;
+  -webkit-box-shadow: 0px 4px 20px rgba(182, 159, 231, 0.1);
+          box-shadow: 0px 4px 20px rgba(182, 159, 231, 0.1);
+}
+
+.banner .btn-banner {
+  background-image: -webkit-gradient(linear, left top, right top, from(#4776E6), color-stop(51%, #8E54E9), to(#4776E6));
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+  margin: 1em 0 0;
+  text-decoration: none;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 15px 45px;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.banner .btn-banner:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner .content img {
+  margin-top: 5vh;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 770px) {
+  .banner .content {
+    -webkit-box-sizing: initial !important;
+            box-sizing: initial !important;
+  }
+}
+
+.banner .content h1 {
+  margin-top: 15vh;
+  font-size: 80px;
+  color: #242323;
+  text-shadow: 0px 4px 30px rgba(171, 203, 238, 0.15);
+  font-family: 'Noto Sans JP', sans-serif;
+  -webkit-font-feature-settings: "ss02" on, "ss01" on;
+          font-feature-settings: "ss02" on, "ss01" on;
+  font-weight: 580;
+}
+
+.banner .content p {
+  font-size: 18px;
+  text-shadow: 0px 4px 30px rgba(171, 203, 238, 0.15);
+  color: #2a2929;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 580;
+}
+
+.banner .content i {
+  color: black;
+  font-size: 20px;
+  text-shadow: 0px 4px 30px rgba(171, 203, 238, 0.15);
+  margin-right: 5px;
+}
+
+.banner .content i:hover {
+  color: gray;
+}
+
+/*--About Me Section--*/
+.about-me {
+  margin-top: 20vh;
+}
+
+.about-me h1 {
+  margin-top: 15vh;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 60px;
+  text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  font-weight: 550;
+}
+
+.about-me p {
+  font-size: 20px;
+  text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about-me img {
+  max-width: 350px;
+  -webkit-filter: drop-shadow(9px 0px 129px rgba(8, 113, 224, 0.3));
+          filter: drop-shadow(9px 0px 129px rgba(8, 113, 224, 0.3));
+}
+
+/*Projects Section*/
+.projects {
+  margin-top: 20vh;
+  background: linear-gradient(108.17deg, #DDE0FF -12.9%, #FDFFFF 164.11%);
+  width: 100%;
+  /*Top divider*/
+  /*Content*/
+  /*Bottom divider*/
+}
+
+.projects .custom-shape-divider-top-1622966647 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.projects .custom-shape-divider-top-1622966647 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 25px;
+}
+
+.projects .custom-shape-divider-top-1622966647 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.projects h1 {
+  margin-top: 25vh;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 50px;
+  font-weight: 540;
+}
+
+.projects p {
+  margin-bottom: 25vh;
+}
+
+.projects img {
+  max-width: 350px;
+  -webkit-filter: drop-shadow(9px 0px 129px rgba(8, 113, 224, 0.3));
+          filter: drop-shadow(9px 0px 129px rgba(8, 113, 224, 0.3));
+}
+
+.projects .custom-shape-divider-bottom-1622966774 {
+  margin-bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.projects .custom-shape-divider-bottom-1622966774 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 25px;
+}
+
+.projects .custom-shape-divider-bottom-1622966774 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/*Contact Me Section*/
+.contact-me {
+  margin-top: 50vh;
+  margin-bottom: 50vh;
+}
+
+.contact-me .cards {
+  margin-top: 5vh;
+}
+
+.contact-me .card,
+.contact-me .contact {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: none;
+}
+
+.contact-me .card:hover,
+.contact-me .card:focus,
+.contact-me .contact:hover,
+.contact-me .contact:focus {
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact-me .card-deck {
+  margin-bottom: 50px;
+}
+
+.contact-me .scroll-header {
+  background: #fff;
+  -webkit-box-shadow: 0 3px 7px rgba(128, 128, 128, 0.3);
+  box-shadow: 0 3px 7px rgba(128, 128, 128, 0.3);
+}
+
+.contact-me .contact {
+  background: #fff none repeat scroll 0 0;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.contact-me .contact h4 {
+  margin-bottom: 20px;
+}
+
+.contact-me .contact p {
+  margin: 40px;
+  margin-top: 20px;
+}
+
+.contact-me .contact,
+.contact-me .text-column {
+  margin-bottom: 25px;
+}
+
+.contact-me .contact img,
+.contact-me .text-column img {
+  height: 60px;
+  margin-bottom: 30px;
+  width: 60px;
+}
+
+.contact-me .invisible-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-me .invisible-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
