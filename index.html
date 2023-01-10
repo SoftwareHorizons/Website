@@ -1,212 +1,1802 @@
-<!DOCTYPE html>
-<html lang="it">
+<!doctype html>
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luca Pelicioli</title>
-
-    <!--Preview Message Link Informations-->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="">
-    <meta property="og:title" content="Luca Pelicioli | Consulenza Informatica">
-    <meta property="og:image" content="">
-    <meta property="og:description" content="Luca Pelicioli | Consulenza Informatica">
-    <meta property="og:locale" content="it_IT">
-
-    <!--Bootstrap library-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
-    <!--Animations Library-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-    <!--CSS Files-->
-    <link rel="stylesheet" href="./main.css">
-
+    <link href="/dist/output.css" rel="stylesheet">
+       
+    
 </head>
 
-<body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
-            <ul class="navbar-nav">
+<body class="overflow-x-hidden">
+    <!-- ====== Navbar Section Start -->
+    <div
+      class="
+        ud-header
+        bg-transparent
+        absolute
+        top-0
+        left-0
+        z-40
+        w-full
+        flex
+        items-center
+      "
+    >
+      <div class="container">
+        <div class="flex -mx-4 items-center justify-between relative">
+          <div class="px-4 w-60 max-w-full">
+            <a href="index.html" class="navbar-logo w-full block py-5">
+              <img
+                src="assets/images/logo/logo-white.svg"
+                alt="logo"
+                class="w-12 md:w-24 header-logo"
+              />
 
-                <li class="nav-item">
-                    <a href="#about-me" class="nav-link text-dark">Chi Sono</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#activity" class="nav-link text-dark">Attività</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link text-dark">SurveyFlow</a>
-                </li>
-
-                <li class="nav-item">
-                    <a href="#contact-me" class="nav-link text-dark">Contattami</a>
-                </li>
-            </ul>
+            </a>
+          </div>
+            
+              <a
+                href="mailto:info@softwarehorizons.it"
+                class="
+                  text-base
+                  font-medium
+                  text-white
+                  bg-white bg-opacity-20
+                  rounded-lg
+                  py-3
+                  px-6
+                  hover:bg-opacity-100 hover:text-dark
+                  signUpBtn
+                  duration-300
+                  ease-in-out mx-2
+                "
+              >
+                Contattaci
+              </a>
+          </div>
         </div>
-    </nav>
+      </div>
+    </div>
+    <!-- ====== Navbar Section End -->
 
-    <div class="banner">
-        <div class="container">
-            <div class="row">
 
-                <div class="col-sm-6">
-                    <div class="content" data-aos="fade-right">
-                        <h1>Luca Pelicioli</h1>
-                        <p>Consulenza informatica e sviluppo software <br>su misura per aziende e privati</p>
-                        <a href="https://twitter.com/lukescrewdriver"><i class="fab fa-twitter"></i></a>
-                        <a href="mailto://luca.pelicioli@gmail.com"><i class="fas fa-envelope"></i></a>
-                        <a href="https://t.me/luke_screwdriver"><i class="fab fa-telegram"></i></a>
-                        <a href="#contact-me"><i class="fas fa-phone-square"></i></a>
-                        <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-                        <br>
-                        <a href="#about-me"><button type="button" class="btn btn-primary btn-banner">Scopri Altro</button></a>
-                    </div>
-                </div>
-                <div class="col-sm-6" data-aos="fade-left">
-                    <div class="content">
-                        <img class="rounded float-left" src="assets/img/banner.svg">
-                    </div>
-                </div>
+    <!--Hero-->
+    <div
+    id="home"
+    class="relative pt-[120px] md:pt-[130px] lg:pt-[160px] bg-primary"
+  >
+    <div class="container">
+      <div class="flex flex-wrap items-center -mx-4">
+        <div class="w-full px-4">
+          <div
+            class="
+              hero-content
+              text-center
+              max-w-[780px]
+              mx-auto
+              wow
+              fadeInUp
+            "
+            data-wow-delay=".2s"
+          >
+            <h1
+              class="
+                text-white
+                font-bold
+                text-3xl
+                sm:text-4xl
+                md:text-[45px]
+                leading-snug
+                sm:leading-snug
+                md:leading-snug
+                mb-8
+              "
+            >
+              Software e soluzioni per la tua azienda 4.0 
+            </h1>
+            <p
+              class="
+                text-base
+                sm:text-lg sm:leading-relaxed
+                md:text-xl md:leading-relaxed
+                mx-auto
+                mb-10
+                text-[#e4e4e4]
+                max-w-[600px]
+              "
+            >
+            Soluzioni software gestionali personalizzate per soddisfare le esigenze uniche delle aziende, offrendo una gestione efficiente e precisa dei dati aziendali.
+            </p>
+          </div>
+        </div>
 
+        <div class="w-full px-4">
+          <div
+            class="mx-auto max-w-[845px] relative z-10 wow fadeInUp"
+            data-wow-delay=".25s"
+          >
+            <div class="mt-16">
+              <img
+                src="assets/images/hero/hero-image.png"
+                alt="hero"
+                class="max-w-full mx-auto rounded-t-xl rounded-tr-xl"
+              />
             </div>
+            <!--Details-->
+            <div class="absolute z-[-1] bottom-0 -left-9">
+              <svg
+                width="134"
+                height="106"
+                viewBox="0 0 134 106"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="1.66667"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 31 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 103 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 132 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="89.3333"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 89.3333)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="89.3333"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 89.3333)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="89.3333"
+                  r="1.66667"
+                  transform="rotate(-90 31 89.3333)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="89.3333"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 89.3333)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 103 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 132 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="74.6673"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 74.6673)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="31.0003"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 31.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="31.0003"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 31.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 31 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="31.0003"
+                  r="1.66667"
+                  transform="rotate(-90 31 31.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="31.0003"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 31.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 103 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 103 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 132 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 132 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 31 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 31 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 103 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 103 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 132 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 132 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="45.3336"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 45.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="1.66683"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 1.66683)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="45.3336"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 45.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="1.66683"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 1.66683)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="45.3336"
+                  r="1.66667"
+                  transform="rotate(-90 31 45.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="1.66683"
+                  r="1.66667"
+                  transform="rotate(-90 31 1.66683)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="45.3336"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 45.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="1.66683"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 1.66683)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 1.66707)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 1.66707)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 1.66707)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 1.66707)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 103 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 103 1.66707)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 132 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 132 1.66707)"
+                  fill="#EA3C43"
+                />
+              </svg>
+            </div>
+            <div class="absolute z-[-1] -top-6 -right-6">
+              <svg
+                width="134"
+                height="106"
+                viewBox="0 0 134 106"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="1.66667"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 31 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 103 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="104"
+                  r="1.66667"
+                  transform="rotate(-90 132 104)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="89.3333"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 89.3333)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="89.3333"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 89.3333)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="89.3333"
+                  r="1.66667"
+                  transform="rotate(-90 31 89.3333)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="89.3333"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 89.3333)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 103 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="89.3338"
+                  r="1.66667"
+                  transform="rotate(-90 132 89.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="74.6673"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 74.6673)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="31.0003"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 31.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="31.0003"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 31.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 31 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="31.0003"
+                  r="1.66667"
+                  transform="rotate(-90 31 31.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="31.0003"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 31.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 103 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 103 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="74.6668"
+                  r="1.66667"
+                  transform="rotate(-90 132 74.6668)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="31.0001"
+                  r="1.66667"
+                  transform="rotate(-90 132 31.0001)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 31 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 31 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 103 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 103 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="60.0003"
+                  r="1.66667"
+                  transform="rotate(-90 132 60.0003)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="16.3336"
+                  r="1.66667"
+                  transform="rotate(-90 132 16.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="45.3336"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 45.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="1.66667"
+                  cy="1.66683"
+                  r="1.66667"
+                  transform="rotate(-90 1.66667 1.66683)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="45.3336"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 45.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="16.3333"
+                  cy="1.66683"
+                  r="1.66667"
+                  transform="rotate(-90 16.3333 1.66683)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="45.3336"
+                  r="1.66667"
+                  transform="rotate(-90 31 45.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="31"
+                  cy="1.66683"
+                  r="1.66667"
+                  transform="rotate(-90 31 1.66683)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="45.3336"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 45.3336)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="45.6667"
+                  cy="1.66683"
+                  r="1.66667"
+                  transform="rotate(-90 45.6667 1.66683)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="60.3333"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 60.3333 1.66707)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="88.6667"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 88.6667 1.66707)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="117.667"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 117.667 1.66707)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="74.6667"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 74.6667 1.66707)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 103 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="103"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 103 1.66707)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="45.3338"
+                  r="1.66667"
+                  transform="rotate(-90 132 45.3338)"
+                  fill="#EA3C43"
+                />
+                <circle
+                  cx="132"
+                  cy="1.66707"
+                  r="1.66667"
+                  transform="rotate(-90 132 1.66707)"
+                  fill="#EA3C43"
+                />
+              </svg>
+            
+            </div>
+          </div>
         </div>
-
+      </div>
+    </div>
     </div>
 
-    <div class="about-me" id="about-me">
+    <!-- ====== Features Section Start -->
+    <section class="pt-20 lg:pt-[120px] pb-8 lg:pb-[70px]">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6" data-aos="fade-right">
-                    <img src="assets/img/about-me.png">
-                </div>
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full px-4">
+              <div class="mb-12 lg:mb-20 w-3/4">
+                <span class="font-semibold text-lg text-primary mb-2 block">
+                  Vantaggi
+                </span>
+                <h2
+                  class="
+                    font-bold
+                    text-3xl
+                    sm:text-4xl
+                    md:text-[42px]
+                    text-dark
+                    mb-4
+                  "
+                >
+                  Principali Vantaggi delle nostre soluzioni
+                </h2>
+                <p
+                  class="
+                    text-lg
+                    sm:text-xl
+                    leading-relaxed
+                    sm:leading-relaxed
+                    text-body-color
+                  "
+                >
+                L'ambiente di sviluppo della nostra azienda permette al software di adattarsi a logiche aziendali personalizzate, di creare applicazioni su misura e procedure custom made.
 
-                <div class="col-sm-6" data-aos="fade-left">
-                    <h1>About Me</h1>
-                    <p>Culpa culpa elit non ea quis aute in pariatur fugiat velit. Ullamco consectetur nisi consequat cupidatat aliqua aliqua in. Voluptate Lorem pariatur elit amet ipsum mollit anim ad mollit dolore culpa. Laborum proident deserunt est minim
-                        incididunt non. Aliqua ad sint eiusmod est officia eu adipisicing. Aute ullamco est aliqua aute laborum amet aliqua nostrud aliqua laborum.</p>
-
-                </div>
-
-
+                Software Horizons si adatta alle necessità di società eterogenee per dimensione e complessità, grazie a un sistema altamente configurabile.
+                
+                
+                </p>
+              </div>
             </div>
-        </div>
-    </div>
-
-    <div class="projects">
-        <div class="custom-shape-divider-top-1622966647">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-            </svg>
-        </div>
-
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-16" data-aos="fade-up">
-                    <h1><b>Luca Pelicioli</b></h1>
-                    <p>Many desktop publishing packages and web page editors<br> now use Lorem Ipsum as their default model text,<br> and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+          </div>
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+              <div class="bg-white mb-12 group wow fadeInUp" data-wow-delay=".1s">
+                <div
+                  class="
+                    w-[70px]
+                    h-[70px]
+                    flex
+                    items-center
+                    justify-center
+                    bg-primary
+                    rounded-2xl
+                    mb-8
+                    relative
+                    z-10
+                  "
+                >
+                  <span
+                    class="
+                      w-[70px]
+                      h-[70px]
+                      flex
+                      items-center
+                      justify-center
+                      bg-primary bg-opacity-20
+                      rounded-2xl
+                      mb-8
+                      absolute
+                      z-[-1]
+                      top-0
+                      left-0
+                      rotate-[25deg]
+                      group-hover:rotate-45
+                      duration-300
+                    "
+                  ></span>
+                  <svg
+                    width="35"
+                    height="35"
+                    viewBox="0 0 52 52"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M44.9313 11.7H38.9188C40.5438 10.9687 41.7626 9.99374 42.2501 8.69374C42.9001 6.98749 42.2501 5.19999 40.3001 3.33124C38.1876 1.29999 35.9938 0.568738 33.8001 1.13749C29.9813 2.11249 27.4626 7.06874 26.2438 9.99374C25.1063 7.06874 22.5876 2.11249 18.6876 1.13749C16.4938 0.568738 14.3001 1.29999 12.1876 3.33124C10.2376 5.19999 9.5876 6.98749 10.2376 8.69374C10.7251 9.99374 12.0251 10.9687 13.5688 11.7H7.06885C5.0376 11.7 3.4126 13.325 3.4126 15.3562V21.5312C3.4126 23.5625 5.0376 25.1875 7.06885 25.1875H7.71885V46.2312C7.71885 48.8312 9.83135 51.025 12.5126 51.025H40.1376C42.7376 51.025 44.9313 48.9125 44.9313 46.2312V25.1875C46.9626 25.1875 48.5876 23.5625 48.5876 21.5312V15.3562C48.5063 13.325 46.8813 11.7 44.9313 11.7ZM34.5313 3.98124C34.7751 3.89999 35.0188 3.89999 35.1813 3.89999C36.1563 3.89999 37.2126 4.38749 38.2688 5.52499C38.7563 6.01249 39.8126 7.06874 39.5688 7.79999C39.0001 9.34374 33.9626 10.6437 28.9251 11.05C30.0626 8.36874 32.1751 4.54999 34.5313 3.98124ZM13.0001 7.71874C12.7563 6.98749 13.8126 5.93124 14.3001 5.44374C15.4376 4.38749 16.4126 3.81874 17.3876 3.81874C17.6313 3.81874 17.8751 3.81874 18.0376 3.89999C20.4751 4.54999 22.5063 8.28749 23.6438 10.9687C18.6063 10.5625 13.5688 9.26249 13.0001 7.71874ZM42.0063 46.2312C42.0063 47.2875 41.1126 48.1812 40.0563 48.1812H12.4313C11.3751 48.1812 10.4813 47.2875 10.4813 46.2312V25.1875H41.9251V46.2312H42.0063ZM45.6626 21.5312C45.6626 22.0187 45.3376 22.3437 44.8501 22.3437H7.06885C6.6626 22.3437 6.25635 22.0187 6.25635 21.5312V15.3562C6.25635 14.95 6.6626 14.5437 7.06885 14.5437H44.8501C45.2563 14.5437 45.6626 14.8687 45.6626 15.3562V21.5312Z"
+                      fill="white"
+                    />
+                  </svg>
                 </div>
+                <h4 class="font-bold text-xl text-dark mb-3">
+                  Semplice e intuitivo
+                </h4>
+                <p class="text-body-color mb-8 lg:mb-11">
+                  L'interfaccia del software permette un utilizzo user friendly
+                </p>
+                <a
+                  href="javascript:void(0)"
+                  class="font-medium text-base text-body-color hover:text-primary"
+                >
+                  Scopri di più
+                </a>
+              </div>
             </div>
-        </div>
-
-        <div class="custom-shape-divider-bottom-1622966774">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-            </svg>
-        </div>
-
-    </div>
-
-
-    <div class="contact-me">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-16" data-aos="fade-up">
-                    <center>
-                        <h1><b>Luca Pelicioli</b></h1>
-                        <p>Many desktop publishing packages and web page editors<br> now use Lorem Ipsum as their default model text,<br> and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
-                    </center>
-
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+              <div
+                class="bg-white mb-12 group wow fadeInUp"
+                data-wow-delay=".15s"
+              >
+                <div
+                  class="
+                    w-[70px]
+                    h-[70px]
+                    flex
+                    items-center
+                    justify-center
+                    bg-primary
+                    rounded-2xl
+                    mb-8
+                    relative
+                    z-10
+                  "
+                >
+                  <span
+                    class="
+                      w-[70px]
+                      h-[70px]
+                      flex
+                      items-center
+                      justify-center
+                      bg-primary bg-opacity-20
+                      rounded-2xl
+                      mb-8
+                      absolute
+                      z-[-1]
+                      top-0
+                      left-0
+                      rotate-[25deg]
+                      group-hover:rotate-45
+                      duration-300
+                    "
+                  ></span>
+                  <svg
+                    width="35"
+                    height="35"
+                    viewBox="0 0 52 52"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M49.8062 23.3187L43.875 17.3875C43.3063 16.8187 42.4125 16.8187 41.8438 17.3875C41.275 17.9562 41.275 18.85 41.8438 19.4187L46.9625 24.6187H27.4625V4.87498L32.5812 10.075C33.15 10.6437 34.0437 10.6437 34.6125 10.075C35.1812 9.50623 35.1812 8.61248 34.6125 8.04373L28.6812 2.11248C27.95 1.38123 26.975 0.974976 26 0.974976C24.9438 0.974976 24.05 1.38123 23.3188 2.11248L17.3875 8.04373C16.8187 8.61248 16.8187 9.50623 17.3875 10.075C17.6312 10.3187 18.0375 10.4812 18.3625 10.4812C18.6875 10.4812 19.0937 10.3187 19.3375 10.075L24.6187 4.87498V24.5375H4.95625L10.075 19.3375C10.6437 18.7687 10.6437 17.875 10.075 17.3062C9.50625 16.7375 8.6125 16.7375 8.04375 17.3062L2.1125 23.2375C0.65 24.7 0.65 27.1375 2.1125 28.6L8.04375 34.5312C8.2875 34.775 8.69375 34.9375 9.01875 34.9375C9.34375 34.9375 9.75 34.775 9.99375 34.5312C10.5625 33.9625 10.5625 33.0687 9.99375 32.5L4.79375 27.3H24.4563V47.125L19.2563 41.925C18.6875 41.3562 17.7938 41.3562 17.225 41.925C16.6563 42.4937 16.6563 43.3875 17.225 43.9562L23.1562 49.8875C23.8875 50.6187 24.8625 51.025 25.8375 51.025C26.8937 51.025 27.7875 50.6187 28.5187 49.8875L34.45 43.9562C35.0188 43.3875 35.0188 42.4937 34.45 41.925C33.8813 41.3562 32.9875 41.3562 32.4188 41.925L27.4625 47.125V27.3812H47.0438L41.8438 32.5812C41.275 33.15 41.275 34.0437 41.8438 34.6125C42.0875 34.8562 42.4938 35.0187 42.8188 35.0187C43.1438 35.0187 43.55 34.8562 43.7938 34.6125L49.725 28.6812C51.2688 27.2187 51.2687 24.7812 49.8062 23.3187Z"
+                      fill="white"
+                    />
+                  </svg>
                 </div>
-                <div class="cards" data-aos="fade-up">
-                    <div class="col-md-6 col-lg-3">
-                        <a class="invisible-link" href="https://github.com/diskxo/MusicForker" target="_blank">
-                            <div class="contact">
-                                <img src="assets/music-icon.svg" alt="img">
-                                <h4><b>Twitter</b></h4>
-                                <p>This telegram bot allows you to download any existing (and even non-existing) song / video in .mp3 and .mp4 format (from YouTube / YouTube Music)
-
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <a class="invisible-link" href="https://github.com/phoenixpixel-it/TorchFlow" target="_blank">
-                            <div class="contact">
-                                <img src="assets/torchflow-icon.png" alt="img">
-                                <h4><b>Facebook</b></h4>
-                                <p>Eiusmod velit quis nostrud duis ut reprehenderit ipsum pariatur tempor commodo veniam. Deserunt laborum aliquip dolor officia pariatur culpa veniam esse exercitation aute laborum cillum ipsum. Pariatur aliqua nisi nostrud
-                                    dolore.
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <a class="invisible-link" href="https://github.com/diskxo/SurveyFlow" target="_blank">
-                            <div class="contact">
-                                <img src="assets/surveyflow-icon.png" alt="img">
-                                <h4><b>Mail</b></h4>
-                                <p>Quis aute est in enim magna ex nulla. Magna sunt ullamco culpa ea aliquip pariatur ex excepteur cupidatat. Non ea quis occaecat commodo enim nostrud reprehenderit aliquip aliquip id anim mollit quis cupidatat.
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <a class="invisible-link" href="https://github.com/diskxo/clip-upload_automation" target="_blank">
-                            <div class="contact">
-                                <img src="assets/upload-icon.svg" alt="Automatic Clip Uploader">
-                                <h4><b>Phone</b></h4>
-                                <p>Laborum enim qui commodo ullamco. Ex ea enim et pariatur aute elit fugiat laborum non aliquip adipisicing amet. Labore quis dolore pariatur deserunt velit. Fugiat minim id voluptate ea. Eu elit aliquip officia dolor. Exercitation
-                                    nisi mollit dolore pariatur nulla tempor quis laborum in id labore do ad. </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
+                <h4 class="font-bold text-xl text-dark mb-3">
+                  Aggiornamenti
+                </h4>
+                <p class="text-body-color mb-8 lg:mb-11">
+                  Garantiamo aggiornamenti e supporto per le richieste future del cliente.
+                </p>
+                <a
+                  href="javascript:void(0)"
+                  class="font-medium text-base text-body-color hover:text-primary"
+                >
+                Scopri di più
+                </a>
+              </div>
             </div>
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+              <div class="bg-white mb-12 group wow fadeInUp" data-wow-delay=".2s">
+                <div
+                  class="
+                    w-[70px]
+                    h-[70px]
+                    flex
+                    items-center
+                    justify-center
+                    bg-primary
+                    rounded-2xl
+                    mb-8
+                    relative
+                    z-10
+                  "
+                >
+                  <span
+                    class="
+                      w-[70px]
+                      h-[70px]
+                      flex
+                      items-center
+                      justify-center
+                      bg-primary bg-opacity-20
+                      rounded-2xl
+                      mb-8
+                      absolute
+                      z-[-1]
+                      top-0
+                      left-0
+                      rotate-[25deg]
+                      group-hover:rotate-45
+                      duration-300
+                    "
+                  ></span>
+                  <svg
+                    width="35"
+                    height="35"
+                    viewBox="0 0 35 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.7734 14.3281H3.82813C2.07813 14.3281 0.65625 12.9062 0.65625 11.1562V4.21094C0.65625 2.46094 2.07813 1.03906 3.82813 1.03906H10.7734C12.5234 1.03906 13.9453 2.46094 13.9453 4.21094V11.1562C13.9453 12.9062 12.5234 14.3281 10.7734 14.3281ZM3.82813 2.95312C3.17188 2.95312 2.57031 3.5 2.57031 4.21094V11.1562C2.57031 11.8125 3.11719 12.4141 3.82813 12.4141H10.7734C11.4297 12.4141 12.0313 11.8672 12.0313 11.1562V4.21094C12.0313 3.55469 11.4844 2.95312 10.7734 2.95312H3.82813Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M31.1719 14.3281H24.2266C22.4766 14.3281 21.0547 12.9062 21.0547 11.1562V4.21094C21.0547 2.46094 22.4766 1.03906 24.2266 1.03906H31.1719C32.9219 1.03906 34.3438 2.46094 34.3438 4.21094V11.1562C34.3438 12.9062 32.9219 14.3281 31.1719 14.3281ZM24.2266 2.95312C23.5703 2.95312 22.9688 3.5 22.9688 4.21094V11.1562C22.9688 11.8125 23.5156 12.4141 24.2266 12.4141H31.1719C31.8281 12.4141 32.4297 11.8672 32.4297 11.1562V4.21094C32.4297 3.55469 31.8828 2.95312 31.1719 2.95312H24.2266Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M10.7734 33.9609H3.82813C2.07813 33.9609 0.65625 32.5391 0.65625 30.7891V23.8438C0.65625 22.0938 2.07813 20.6719 3.82813 20.6719H10.7734C12.5234 20.6719 13.9453 22.0938 13.9453 23.8438V30.7891C13.9453 32.5391 12.5234 33.9609 10.7734 33.9609ZM3.82813 22.5859C3.17188 22.5859 2.57031 23.1328 2.57031 23.8438V30.7891C2.57031 31.4453 3.11719 32.0469 3.82813 32.0469H10.7734C11.4297 32.0469 12.0313 31.5 12.0313 30.7891V23.8438C12.0313 23.1875 11.4844 22.5859 10.7734 22.5859H3.82813Z"
+                      fill="white"
+                    />
+                    <path
+                      d="M31.1719 33.9609H24.2266C22.4766 33.9609 21.0547 32.5391 21.0547 30.7891V23.8438C21.0547 22.0938 22.4766 20.6719 24.2266 20.6719H31.1719C32.9219 20.6719 34.3438 22.0938 34.3438 23.8438V30.7891C34.3438 32.5391 32.9219 33.9609 31.1719 33.9609ZM24.2266 22.5859C23.5703 22.5859 22.9688 23.1328 22.9688 23.8438V30.7891C22.9688 31.4453 23.5156 32.0469 24.2266 32.0469H31.1719C31.8281 32.0469 32.4297 31.5 32.4297 30.7891V23.8438C32.4297 23.1875 31.8828 22.5859 31.1719 22.5859H24.2266Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <h4 class="font-bold text-xl text-dark mb-3">
+                  Soluzioni versatili
+                </h4>
+                <p class="text-body-color mb-8 lg:mb-11">
+                  Possibilità di utilizzare le nostre soluzioni su qualsiasi dispositivo
+                </p>
+                <a
+                  href="javascript:void(0)"
+                  class="font-medium text-base text-body-color hover:text-primary"
+                >
+                Scopri di più
+                </a>
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/4 px-4">
+              <div
+                class="bg-white mb-12 group wow fadeInUp"
+                data-wow-delay=".25s"
+              >
+                <div
+                  class="
+                    w-[70px]
+                    h-[70px]
+                    flex
+                    items-center
+                    justify-center
+                    bg-primary
+                    rounded-2xl
+                    mb-8
+                    relative
+                    z-10
+                  "
+                >
+                  <span
+                    class="
+                      w-[70px]
+                      h-[70px]
+                      flex
+                      items-center
+                      justify-center
+                      bg-primary bg-opacity-20
+                      rounded-2xl
+                      mb-8
+                      absolute
+                      z-[-1]
+                      top-0
+                      left-0
+                      rotate-[25deg]
+                      group-hover:rotate-45
+                      duration-300
+                    "
+                  ></span>
+                  <svg
+                    width="35"
+                    height="35"
+                    viewBox="0 0 35 35"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M29.5312 21.6562L28.6563 21.1641L29.6953 20.5625C30.7344 19.9062 31.3359 18.8125 31.2812 17.6094C31.2266 16.4063 30.625 15.3125 29.5312 14.7109L27.8906 13.7813L29.6406 12.6875C30.6797 12.0313 31.2812 10.9375 31.2266 9.73438C31.1719 8.53125 30.5703 7.4375 29.4766 6.83594L19.25 1.09375C18.2109 0.492187 16.9531 0.546875 15.9141 1.09375L5.41406 7.21875C4.375 7.82031 3.71875 8.91406 3.71875 10.1172C3.71875 11.3203 4.375 12.4141 5.41406 13.0156L7.10938 14L5.41406 14.9844C4.375 15.5859 3.71875 16.6797 3.71875 17.8828C3.71875 19.0859 4.32031 20.1797 5.41406 20.7812L6.39844 21.3281L5.46875 21.875C4.42969 22.4766 3.77344 23.5703 3.77344 24.7734C3.77344 25.9766 4.375 27.0703 5.46875 27.6719L15.9141 33.6875C16.4609 34.0156 17.0078 34.125 17.6094 34.125C18.2109 34.125 18.8125 33.9609 19.3594 33.6328L29.6953 27.2891C30.7344 26.6328 31.3359 25.5391 31.2812 24.3359C31.2266 23.2969 30.625 22.2031 29.5312 21.6562ZM5.63281 10.1172C5.63281 9.57031 5.90625 9.13281 6.34375 8.85938L16.8438 2.78906C17.0625 2.67969 17.3359 2.57031 17.5547 2.57031C17.7734 2.57031 18.0469 2.625 18.2656 2.73437L28.5469 8.47656C28.9844 8.75 29.2578 9.1875 29.3125 9.73438C29.3125 10.2812 29.0391 10.7188 28.6016 10.9922L18.3203 17.3906C17.8828 17.6641 17.2812 17.6641 16.8438 17.3906L6.39844 11.375C5.90625 11.1562 5.63281 10.6641 5.63281 10.1172ZM5.63281 17.9375C5.63281 17.3906 5.90625 16.9531 6.34375 16.6797L9.02344 15.1484L15.8594 19.0859C16.4062 19.4141 16.9531 19.5234 17.5547 19.5234C18.1562 19.5234 18.7578 19.3594 19.3047 19.0312L26.0312 14.875L28.6016 16.2969C29.0391 16.5703 29.3125 17.0078 29.3672 17.5547C29.3672 18.1016 29.0938 18.5391 28.6563 18.8125L18.3203 25.2656C17.8828 25.5391 17.2812 25.5391 16.8438 25.2656L6.39844 19.25C5.90625 18.9766 5.63281 18.4844 5.63281 17.9375ZM28.6563 25.8125L18.3203 32.2109C17.8828 32.4844 17.2812 32.4844 16.8438 32.2109L6.39844 26.1953C5.96094 25.9219 5.6875 25.4844 5.6875 24.9375C5.6875 24.3906 5.96094 23.9531 6.39844 23.6797L8.3125 22.5859L15.8594 26.9609C16.4062 27.2891 16.9531 27.3984 17.5547 27.3984C18.1562 27.3984 18.7578 27.2344 19.3047 26.9062L26.7969 22.2578L28.6563 23.2969C29.0938 23.5703 29.3672 24.0078 29.4219 24.5547C29.3672 25.0469 29.0938 25.5391 28.6563 25.8125Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <h4 class="font-bold text-xl text-dark mb-3">
+                  Gestione immediata
+                </h4>
+                <p class="text-body-color mb-8 lg:mb-11">
+                  Offriamo tutto il necessario per tenere sotto controllo la tua azienda
+                </p>
+                <a
+                  href="javascript:void(0)"
+                  class="font-medium text-base text-body-color hover:text-primary"
+                >
+                Scopri di più
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+      <!-- ====== Features Section End -->
 
+
+          <!-- ====== About Section Start -->
+    <section
+    id="about"
+    class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-secondary"
+  >
+    <div class="container">
+      <div class="bg-white wow fadeInUp" data-wow-delay=".2s">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full px-4">
+            <div
+              class="
+                lg:flex
+                items-center
+                justify-between
+                border
+                overflow-hidden
+              "
+            >
+              <div
+                class="
+                  lg:max-w-[565px]
+                  xl:max-w-[640px]
+                  w-full
+                  py-12
+                  px-7
+                  sm:px-12
+                  md:p-16
+                  lg:py-9 lg:px-16
+                  xl:p-[70px]
+                "
+              >
+                <span
+                  class="
+                    text-sm
+                    font-medium
+                    text-white
+                    py-2
+                    px-5
+                    bg-primary
+                    inline-block
+                    mb-5
+                  "
+                >
+                  Horidesk
+                </span>
+                <h2
+                  class="
+                    font-bold
+                    text-3xl
+                    sm:text-4xl
+                    2xl:text-[40px]
+                    sm:leading-snug
+                    text-dark
+                    mb-6
+                  "
+                >
+                  Un unico software per tutte le esigenze aziendali
+                </h2>
+                <p class="text-base text-body-color mb-9 leading-relaxed">
+                  <!--scrivi una descrizione del software in italiano-->
+                </p>
+                <p class="text-base text-body-color mb-9 leading-relaxed">
+                  Horidesk integra in un unico gestionale tutte le funzionalità utili per il ciclo di vita della tua impresa, grazie a moduli integrati in grado di migliorare l’efficienza di tutti i processi aziendali.
+
+
+                </p>
+                <a
+                  href="javascript:void(0)"
+                  class="
+                    inline-flex
+                    items-center
+                    justify-center
+                    py-4
+                    px-6
+                    rounded
+                    text-white
+                    bg-primary
+                    text-base
+                    font-medium
+                    hover:bg-opacity-90 hover:shadow-lg
+                    transition
+                    duration-300
+                    ease-in-out
+                  "
+                >
+                  Scopri di più
+                </a>
+              </div>
+              <div class="text-center">
+                <div class="relative inline-block z-10">
+                  <img
+                    src="assets/images/horidesk/about-image.svg"
+                    alt="image"
+                    class="mx-auto lg:m-auto"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!--FontAwesome Kit-->
-    <script src="https://kit.fontawesome.com/ab36464be1.js" crossorigin="anonymous"></script>
+  </section>
+  <!-- ====== About Section End -->
 
-    <!--Bootstrap kit-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- ====== Contact Start ====== -->
+    <section id="contact" class="py-20 md:py-[120px] relative">
+      <div
+        class="
+          absolute
+          z-[-1]
+          w-full
+          h-1/2
+          lg:h-[45%]
+          xl:h-1/2
+        bg-secondary
+          top-0
+          left-0
+        "
+      ></div>
+      <div class="container px-4">
+        <div class="flex flex-wrap items-center -mx-4">
+          <div class="px-4 w-full">
+            <div>
+              <div class=" mb-12 lg:mb-[150px]">
+                <span class="text-dark font-semibold text-base mb-5">
+                  CONTATTACI
+                </span>
+                <h2 class="text-[35px] font-semibold">
+                  Parlaci di quello<br />
+                  Che vuoi realizzare per la tua azienda!
+                </h2>
+              </div>
+              <div class="flex flex-wrap justify-between mb-12 lg:mb-0">
+                <div class="flex max-w-full w-[330px] mb-8">
+                  <div class="text-[32px] text-primary mr-6">
+                    <svg
+                      width="29"
+                      height="35"
+                      viewBox="0 0 29 35"
+                      class="fill-current"
+                    >
+                      <path
+                        d="M14.5 0.710938C6.89844 0.710938 0.664062 6.72656 0.664062 14.0547C0.664062 19.9062 9.03125 29.5859 12.6406 33.5234C13.1328 34.0703 13.7891 34.3437 14.5 34.3437C15.2109 34.3437 15.8672 34.0703 16.3594 33.5234C19.9688 29.6406 28.3359 19.9062 28.3359 14.0547C28.3359 6.67188 22.1016 0.710938 14.5 0.710938ZM14.9375 32.2109C14.6641 32.4844 14.2812 32.4844 14.0625 32.2109C11.3828 29.3125 2.57812 19.3594 2.57812 14.0547C2.57812 7.71094 7.9375 2.625 14.5 2.625C21.0625 2.625 26.4219 7.76562 26.4219 14.0547C26.4219 19.3594 17.6172 29.2578 14.9375 32.2109Z"
+                      />
+                      <path
+                        d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mb-6">Sede</h5>
+                    <p class="text-base text-body-color">
+                      Bergamo, Italia
+                    </p>
+                  </div>
+                </div>
+                <div class="flex max-w-full w-[330px] mb-8">
+                  <div class="text-[32px] text-primary mr-6">
+                    <svg
+                      width="29"
+                      height="35"
+                      viewBox="0 0 29 35"
+                      class="fill-current"
+                    >
+                      <path
+                        d="M14.5 0.710938C6.89844 0.710938 0.664062 6.72656 0.664062 14.0547C0.664062 19.9062 9.03125 29.5859 12.6406 33.5234C13.1328 34.0703 13.7891 34.3437 14.5 34.3437C15.2109 34.3437 15.8672 34.0703 16.3594 33.5234C19.9688 29.6406 28.3359 19.9062 28.3359 14.0547C28.3359 6.67188 22.1016 0.710938 14.5 0.710938ZM14.9375 32.2109C14.6641 32.4844 14.2812 32.4844 14.0625 32.2109C11.3828 29.3125 2.57812 19.3594 2.57812 14.0547C2.57812 7.71094 7.9375 2.625 14.5 2.625C21.0625 2.625 26.4219 7.76562 26.4219 14.0547C26.4219 19.3594 17.6172 29.2578 14.9375 32.2109Z"
+                      />
+                      <path
+                        d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mb-6">Sede</h5>
+                    <p class="text-base text-body-color">
+                      Bergamo, Italia
+                    </p>
+                  </div>
+                </div>
+                <div class="flex max-w-full w-[330px] mb-8">
+                  <div class="text-[32px] text-primary mr-6">
+                    <svg
+                      width="34"
+                      height="25"
+                      viewBox="0 0 34 25"
+                      class="fill-current"
+                    >
+                      <path
+                        d="M30.5156 0.960938H3.17188C1.42188 0.960938 0 2.38281 0 4.13281V20.9219C0 22.6719 1.42188 24.0938 3.17188 24.0938H30.5156C32.2656 24.0938 33.6875 22.6719 33.6875 20.9219V4.13281C33.6875 2.38281 32.2656 0.960938 30.5156 0.960938ZM30.5156 2.875C30.7891 2.875 31.0078 2.92969 31.2266 3.09375L17.6094 11.3516C17.1172 11.625 16.5703 11.625 16.0781 11.3516L2.46094 3.09375C2.67969 2.98438 2.89844 2.875 3.17188 2.875H30.5156ZM30.5156 22.125H3.17188C2.51562 22.125 1.91406 21.5781 1.91406 20.8672V5.00781L15.0391 12.9922C15.5859 13.3203 16.1875 13.4844 16.7891 13.4844C17.3906 13.4844 17.9922 13.3203 18.5391 12.9922L31.6641 5.00781V20.8672C31.7734 21.5781 31.1719 22.125 30.5156 22.125Z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mb-6">Come possiamo aiutarti?</h5>
+                    <a class="text-base text-body-color hover:text-black transition" href="mailto:info@softwarehorizons.it">info@softwarehorizons.it</a>
+                    <a class="text-base text-body-color hover:text-black transition" href="mailto:luca.pelicioli@gmail.com">
+                      luca.pelicioli@gmail.com
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+       
+        </div>
+      </div>
+    </section>
+    <!-- ====== Contact End ====== -->
 
+    <script src="assets/js/main.js"></script>
 
-    <!--Website Animations-->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 900,
-        });
-    </script>
 </body>
 
 </html>
