@@ -31,6 +31,7 @@ module.exports = {
         secondary: "#BAD4FF",
         "body-color": "#637381",
         warning: "#FBBF24",
+        navbar: "#19228F",
       },
       boxShadow: {
         input: "0px 7px 20px rgba(0, 0, 0, 0.03)",
