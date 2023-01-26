@@ -2,6 +2,13 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
+    fontSize: {
+      '5xl': '3.052rem',
+      '4xl': '2.441rem',
+      '3xl': '1.953rem',
+      '2xl': '1.563rem',
+      
+    },
     screens: {
       sm: "540px",
       // => @media (min-width: 576px) { ... }
@@ -29,10 +36,16 @@ module.exports = {
         "dark-700": "#090e34b3",
         primary: "#2933B3",
         secondary: "#BAD4FF",
+        secondaryhover: "#A7C8FE",
         "body-color": "#637381",
         warning: "#FBBF24",
         navbar: "#19228F",
       },
+      lineHeight: {
+        
+        '11': '3rem',
+      },
+
       boxShadow: {
         input: "0px 7px 20px rgba(0, 0, 0, 0.03)",
         pricing: "0px 39px 23px -27px rgba(0, 0, 0, 0.04)",

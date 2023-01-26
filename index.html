@@ -5,16 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./dist/output.css" rel="stylesheet">
+  <!--add favicon-->
+  <link rel="icon" href="./assets/images/logo/favicon.png" type="image/x-icon" />
   <title>Software Horizons</title>
 
 
 </head>
 
 <body class="bg-primary overflow-x-hidden">
-  <hero class="relative bg-primary">
+
+
+  <hero class=" bg-primary">
   <nav
     class="sticky w-full top-0 z-20 bg-navbar backdrop-filter backdrop-blur-lg bg-opacity-80 firefox:bg-opacity-30">
-    <div class="mx-5 md:mx-32 lg:mx-64">
+    <div class="container">
       <div class="flex items-center justify-between h-16">
         <div class="flex">
           <img class=" flex w-12 " src="./assets/images/logo/logo-white.svg" alt="Software Horizons">
@@ -60,7 +64,7 @@
                 <h1 class="
               text-white
               font-bold
-              text-3xl
+              text-5xl
               sm:text-4xl
               md:text-[45px]
               leading-snug
@@ -68,7 +72,7 @@
               md:leading-snug
               mb-8
             ">
-                  Software e soluzioni per la tua azienda 4.0
+                  Software e soluzioni per la tua <span class="underline underline-offset-4">azienda 4.0</span> 
                 </h1>
                 <p class="
               text-base
@@ -80,8 +84,7 @@
               max-w-[600px]
             ">
                   Soluzioni software gestionali personalizzate per soddisfare le esigenze uniche delle aziende, offrendo
-                  una
-                  gestione efficiente e precisa dei dati aziendali.
+                  una gestione efficiente e precisa dei dati aziendali.
                 </p>
               </div>
 
@@ -103,6 +106,7 @@
                 transition
                 duration-300
                 ease-in-out
+                bg-red-300
               ">
                   Scopri la nostra soluzione
                 </a>
@@ -116,7 +120,7 @@
                     class="max-w-full mx-auto rounded-t-xl rounded-tr-xl" />
                 </div>
                 <!--Details-->
-                <div class="absolute z-[-1] bottom-0 -left-9">
+                <div class="absolute z-[-1] -bottom-4 -left-9">
                   <svg width="134" height="106" viewBox="0 0 134 106" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="1.66667" cy="104" r="1.66667" transform="rotate(-90 1.66667 104)" fill="#EA3C43" />
                     <circle cx="16.3333" cy="104" r="1.66667" transform="rotate(-90 16.3333 104)" fill="#EA3C43" />
@@ -391,46 +395,6 @@
     </div>
   </hero>
 
-  <!--sezione chi siamo sulla base del sito-->
-
-  <section class="pt-20 lg:pt-[120px] pb-8 lg:pb-[70px] bg-white">
-    <div class="container">
-      <div class="flex flex-wrap -mx-4">
-        <div class="grid grid-cols-2 gap-32 mb-12 lg:mb-20">
-          <div class="px-4">
-            <h2 class="
-                    font-bold
-                    text-3xl
-                    sm:text-4xl
-                    md:text-[42px]
-                    text-dark
-                    mb-4
-                  ">
-              Chi siamo
-            </h2>
-            <p class="
-                    text-lg
-                    sm:text-xl
-                    leading-relaxed
-                    sm:leading-relaxed
-                    text-body-color
-                  ">
-              Aliqua cupidatat et laborum consequat. Adipisicing non ex aute amet nostrud proident. Tempor velit consectetur in mollit eiusmod consequat reprehenderit dolor ex id incididunt veniam mollit. Officia culpa quis labore ad aliquip fugiat velit occaecat nulla aliqua non ut amet minim. Sit sit veniam qui dolor pariatur Lorem irure sunt ad velit. Aute magna fugiat Lorem qui laborum aliquip irure labore magna reprehenderit. Non pariatur cillum officia aliquip in velit mollit aute aute fugiat quis.
-            </p>
-          </div>
-
-          <div class="px-4">
-            <!--immagine azienda-->
-            <img src="./assets/images/hero/hero-image.png" alt="immagine azienda">
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
   <!-- ====== Features Section Start -->
   <section class="pt-20 lg:pt-[120px] pb-8 lg:pb-[70px] bg-white">
     <div class="container">
@@ -678,28 +642,10 @@
 
   <!-- ====== Horidesk Section Start -->
   <section id="horidesk" class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-secondary">
-      <div class=" wowfadeInUp" data-wow-delay=".2s">
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full px-4">
-            <div class="
-                lg:flex
-                items-center
-                justify-between
-                
-                overflow-hidden
-              ">
-              <div class="
-                  lg:max-w-[565px]
-                  xl:max-w-[640px]
-                  w-full
-                  py-12
-                  px-7
-                  sm:px-12
-                  md:p-16
-                  lg:py-9 lg:px-16
-                  xl:p-[70px]
-                ">
-                <span class="
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-16">
+        <div>
+          <span class="
                     text-sm
                     font-medium
                     text-white
@@ -712,84 +658,142 @@
                   Horidesk
                 </span>
                 <h2 class="
-                    font-bold
-                    text-3xl
-                    sm:text-4xl
-                    2xl:text-[40px]
-                    sm:leading-snug
+                    font-black
+                    text-4xl
+                    sm:text-5xl
+                    sm:leading-11
+                    leading-normal
                     text-dark
                     mb-6
+                    text-gray-900
                   ">
-                  Un unico software per tutte le esigenze aziendali
+                  Un unico software per tutte le <span class="underline-offset-4	underline">esigenze aziendali</span>
                 </h2>
-                <p class="text-base text-body-color mb-9 leading-relaxed">
-                  <!--scrivi una descrizione del software in italiano-->
-                </p>
-                <p class="text-base text-body-color mb-9 leading-relaxed">
+                
+                <p class="text-2xl text-gray-700 mb-9 sm:leading-9 leading-relaxed">
                   Horidesk integra in un unico gestionale tutte le funzionalità utili per il ciclo di vita della tua
                   impresa, grazie a moduli integrati in grado di migliorare l’efficienza di tutti i processi aziendali.
 
 
                 </p>
-              </div>
-              <div class="text-center">
-                <div class="relative inline-block z-10">
-                  <img src="assets/images/horidesk/about-image.svg" alt="image" class="mx-auto lg:m-auto" />
-                </div>
-              </div>
+        </div>
+
+        <div class="lg:-mr-32">
+          <img src="./assets/images/horidesk/horidesk_content.png" alt="immagine-1" class="rounded-xl shadow-2xl
+
+          " >
+        </div>
+    </div>
+     
+
+    </div>  
             </div>
+    </div>  
+    
+  </section>
 
-            <div class="
-                lg:flex
-                items-center
-                justify-between
-                
-                overflow-hidden
-              ">
-              <div class="text-center">
-                <div class="relative inline-block z-10">
-                  <img src="assets/images/horidesk/horidesk_content.png" alt="image" class="mx-auto lg:m-auto" />
-                </div>
-              </div>
 
-              <div class="
-                  lg:max-w-[565px]
-                  xl:max-w-[640px]
-                  w-full
-                  py-12
-                  px-7
-                  sm:px-12
-                  md:p-16
-                  lg:py-9 lg:px-16
-                  xl:p-[70px]
-                ">
-                
+  <section id="horidesk1" class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-[#6BA4FF]">
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-16">
+        <div class="lg:-ml-32">
+          <img src="./assets/images/horidesk/horidesk_content.png" alt="immagine-1" class="rounded-xl shadow-2xl
+
+          " >
+        </div>
+
+        <div>
+          <span class="
+                    text-sm
+                    font-medium
+                    text-white
+                    py-2
+                    px-5
+                    bg-primary
+                    inline-block
+                    mb-5
+                  ">
+                  Horidesk
+                </span>
                 <h2 class="
-                    font-bold
-                    text-3xl
-                    sm:text-4xl
-                    2xl:text-[40px]
-                    sm:leading-snug
+                    font-black
+                    text-4xl
+                    sm:text-5xl
+                    sm:leading-11
+                    leading-normal
                     text-dark
                     mb-6
+                    text-gray-900
                   ">
-                  Semplice e flessibile
+                  Un unico software per tutte le <span class="underline-offset-4	underline">esigenze aziendali</span>
                 </h2>
-                <p class="text-base text-body-color mb-9 leading-relaxed">
-                  <!--scrivi una descrizione del software in italiano-->
-                </p>
-                <p class="text-base text-body-color mb-9 leading-relaxed">
-                  Qui duis velit incididunt in veniam Lorem in quis labore voluptate est sint dolore fugiat. Nulla aliquip reprehenderit non ea. Ipsum sint excepteur nostrud ipsum irure minim aute aliqua exercitation. Quis fugiat aliqua laborum et velit velit voluptate quis. Dolor ea Lorem reprehenderit minim dolor ipsum nisi ipsum. Proident magna dolore cillum dolore consequat amet culpa ea nisi labore excepteur cillum id ex.
+                
+                <p class="text-2xl text-gray-700 mb-9 sm:leading-9 leading-relaxed">
+                  Horidesk integra in un unico gestionale tutte le funzionalità utili per il ciclo di vita della tua
+                  impresa, grazie a moduli integrati in grado di migliorare l’efficienza di tutti i processi aziendali.
 
 
                 </p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+
     </div>
+     
+
+    </div>  
+    
   </section>
+
+  <section id="horidesk" class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-secondary">
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-16">
+        <div>
+          <span class="
+                    text-sm
+                    font-medium
+                    text-white
+                    py-2
+                    px-5
+                    bg-primary
+                    inline-block
+                    mb-5
+                  ">
+                  Horidesk
+                </span>
+                <h2 class="
+                    font-black
+                    text-4xl
+                    sm:text-5xl
+                    sm:leading-11
+                    leading-normal
+                    text-dark
+                    mb-6
+                    text-gray-900
+                  ">
+                  Un unico software per tutte le <span class="underline-offset-4	underline">esigenze aziendali</span>
+                </h2>
+                
+                <p class="text-2xl text-gray-700 mb-9 sm:leading-9 leading-relaxed">
+                  Horidesk integra in un unico gestionale tutte le funzionalità utili per il ciclo di vita della tua
+                  impresa, grazie a moduli integrati in grado di migliorare l’efficienza di tutti i processi aziendali.
+
+
+                </p>
+        </div>
+
+        <div class="lg:-mr-32">
+          <img src="./assets/images/horidesk/horidesk_content.png" alt="immagine-1" class="rounded-xl shadow-2xl
+
+          " >
+        </div>
+    </div>
+     
+
+    </div>  
+        </div>
+    </div>  
+    
+  </section>
+
   <!-- ====== Horidesk Section End -->
 
   <!-- ====== Contact Start ====== -->
@@ -809,70 +813,44 @@
       <div class="flex flex-wrap items-center -mx-4">
         <div class="px-4 w-full">
           <div>
-            <div class=" mb-12 lg:mb-[150px]">
-              <span class="text-dark font-semibold text-base mb-5">
-                CONTATTACI
+            <div class="mb-12">
+              <span class=" font-semibold text-base mb-5 text-primary">
+                Contattaci
               </span>
-              <h2 class="text-[35px] font-semibold">
-                Parlaci di quello<br />
-                Che vuoi realizzare per la tua azienda!
+              <h2 class="text-[35px] lg:text-5xl font-bold ">
+                Parlaci di cosa<br />
+                Hai bisogno per la tua <span class="underline underline-offset-4">azienda!</span> 
               </h2>
             </div>
-            <div class="flex flex-wrap justify-between mb-12 lg:mb-0">
-              <div class="flex max-w-full w-[330px] mb-8">
-                <div class="text-[32px] text-primary mr-6">
-                  <svg width="29" height="35" viewBox="0 0 29 35" class="fill-current">
-                    <path
-                      d="M14.5 0.710938C6.89844 0.710938 0.664062 6.72656 0.664062 14.0547C0.664062 19.9062 9.03125 29.5859 12.6406 33.5234C13.1328 34.0703 13.7891 34.3437 14.5 34.3437C15.2109 34.3437 15.8672 34.0703 16.3594 33.5234C19.9688 29.6406 28.3359 19.9062 28.3359 14.0547C28.3359 6.67188 22.1016 0.710938 14.5 0.710938ZM14.9375 32.2109C14.6641 32.4844 14.2812 32.4844 14.0625 32.2109C11.3828 29.3125 2.57812 19.3594 2.57812 14.0547C2.57812 7.71094 7.9375 2.625 14.5 2.625C21.0625 2.625 26.4219 7.76562 26.4219 14.0547C26.4219 19.3594 17.6172 29.2578 14.9375 32.2109Z" />
-                    <path
-                      d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z" />
-                  </svg>
+            <div class="grid md:grid-cols-3 gap-16 md:gap-4">
+                <div>
+                  <div class="text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-black m-auto" viewBox="0 0 32 32"> <path d="M32 6v20c0 1.135-0.865 2-2 2h-2v-18.151l-12 8.62-12-8.62v18.151h-2c-1.135 0-2-0.865-2-2v-20c0-0.568 0.214-1.068 0.573-1.422 0.359-0.365 0.859-0.578 1.427-0.578h0.667l13.333 9.667 13.333-9.667h0.667c0.568 0 1.068 0.214 1.427 0.578 0.359 0.354 0.573 0.854 0.573 1.422z"/> </svg>
+                  </div>
+                  <div class="text-center mt-3">
+                    <h3 class="text-2xl font-semibold mb-2">Mail</h3>
+                    <p class="text-gray-500 text-xl">info@softwarehorizons.it</p>
+                  </div>
                 </div>
                 <div>
-                  <h5 class="text-lg font-semibold mb-6">Sede</h5>
-                  <p class="text-base text-body-color">
-                    Bergamo, Italia
-                  </p>
-                </div>
-              </div>
-              <div class="flex max-w-full w-[330px] mb-8">
-                <div class="text-[32px] text-primary mr-6">
-                  <!--icona social-->
-                  <svg width="34" height="34" viewBox="0 0 34 34" class="fill-current">
-                    <path
-                      d="M17 0C7.60938 0 0 7.60938 0 17C0 26.3906 7.60938 34 17 34C26.3906 34 34 26.3906 34 17C34 7.60938 26.3906 0 17 0ZM17 32C8.72656 32 2 25.2734 2 17C2 8.72656 8.72656 2 17 2C25.2734 2 32 8.72656 32 17C32 25.2734 25.2734 32 17 32Z" />
-                    <path
-                      d="M17 6.5C12.8594 6.5 9.5 9.85938 9.5 14C9.5 18.1406 12.8594 21.5 17 21.5C21.1406 21.5 24.5 18.1406 24.5 14C24.5 9.85938 21.1406 6.5 17 6.5ZM17 19.5C14.4688 19.5 12.5 17.5312 12.5 15C12.5 12.4688 14.4688 10.5 17 10.5C19.5312 10.5 21.5 12.4688 21.5 15C21.5 17.5312 19.5312 19.5 17 19.5Z" />
-                    <path
-                      d="M26.5 6.5C25.6719 6.5 25 7.17188 25 8C25 8.82812 25.6719 9.5 26.5 9.5C27.3281 9.5 28 8.82812 28 8C28 7.17188 27.3281 6.5 26.5 6.5Z" />
-                  </svg>
+                  <div class="text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-black m-auto" fill="currentColor" viewBox="0 0 16 16"> <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/> </svg>
 
+                  </div>
+                  <div class="text-center mt-3">
+                    <h3 class="text-2xl font-semibold mb-2">Telefono</h3>
+                    <p class="text-gray-500 text-xl">+39 333 1234567</p>
+                  </div>
                 </div>
-                <div>
-                  <h5 class="text-lg font-semibold mb-6">Social</h5>
-                  <a class="text-base text-body-color" href="https://twitter.com/lukescrewdriver">
-                    Twitter
-                  </a>
+              <div class="">
+                  <div class="text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-black m-auto" viewBox="0 0 24 24"><defs><style>.cls-1{fill:#fff;opacity:0;}.cls-2{fill:#231f20;}</style></defs><title>linkedin</title><g id="Layer_2" data-name="Layer 2"><g id="linkedin"><g id="linkedin-2" data-name="linkedin"><rect class="cls-1" width="24" height="24" transform="translate(24 24) rotate(180)"/><path class="cls-2" d="M20,22H18.33a2,2,0,0,1-2-2V14.63a.92.92,0,0,0-.69-.93.84.84,0,0,0-.67.19.85.85,0,0,0-.3.65V20a2,2,0,0,1-2,2H11a2,2,0,0,1-2-2V14.54a6.5,6.5,0,1,1,13,0V20A2,2,0,0,1,20,22ZM15.5,11.69a3.73,3.73,0,0,1,.47,0,2.91,2.91,0,0,1,2.36,2.9V20H20V14.54a4.5,4.5,0,1,0-9,0V20h1.67V14.54a2.85,2.85,0,0,1,2.83-2.85Z"/><path class="cls-2" d="M6,22H4a2,2,0,0,1-2-2V10A2,2,0,0,1,4,8H6a2,2,0,0,1,2,2V20A2,2,0,0,1,6,22ZM4,10H4V20H6V10Z"/><path class="cls-2" d="M5,7A3,3,0,1,1,8,4,3,3,0,0,1,5,7ZM5,3A1,1,0,1,0,6,4,1,1,0,0,0,5,3Z"/></g></g></g></svg>
+                  </div>
+                  <div class="text-center mt-3">
+                    <h3 class="text-2xl font-semibold mb-2">Linkedin</h3>
+                    <p class="text-gray-500 text-xl">software-horizons</p>
+                  </div>
                 </div>
-              </div>
-              <div class="flex max-w-full w-[330px] mb-8">
-                <div class="text-[32px] text-primary mr-6">
-                  <svg width="34" height="25" viewBox="0 0 34 25" class="fill-current">
-                    <path
-                      d="M30.5156 0.960938H3.17188C1.42188 0.960938 0 2.38281 0 4.13281V20.9219C0 22.6719 1.42188 24.0938 3.17188 24.0938H30.5156C32.2656 24.0938 33.6875 22.6719 33.6875 20.9219V4.13281C33.6875 2.38281 32.2656 0.960938 30.5156 0.960938ZM30.5156 2.875C30.7891 2.875 31.0078 2.92969 31.2266 3.09375L17.6094 11.3516C17.1172 11.625 16.5703 11.625 16.0781 11.3516L2.46094 3.09375C2.67969 2.98438 2.89844 2.875 3.17188 2.875H30.5156ZM30.5156 22.125H3.17188C2.51562 22.125 1.91406 21.5781 1.91406 20.8672V5.00781L15.0391 12.9922C15.5859 13.3203 16.1875 13.4844 16.7891 13.4844C17.3906 13.4844 17.9922 13.3203 18.5391 12.9922L31.6641 5.00781V20.8672C31.7734 21.5781 31.1719 22.125 30.5156 22.125Z" />
-                  </svg>
-                </div>
-                <div>
-                  <h5 class="text-lg font-semibold mb-6">Come possiamo aiutarti?</h5>
-                  <a class="text-base text-body-color hover:text-black transition"
-                    href="mailto:info@softwarehorizons.it">info@softwarehorizons.it</a>
-                  <a class="text-base text-body-color hover:text-black transition"
-                    href="mailto:luca.pelicioli@gmail.com">
-                    luca.pelicioli@gmail.com
-                  </a>
-                </div>
-              </div>
-
             </div>
           </div>
         </div>
