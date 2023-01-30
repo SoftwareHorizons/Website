@@ -3,11 +3,13 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     fontSize: {
+      '10xl': '6rem',
+      '9xl': '5rem',
+      '8xl': '4rem',
       '5xl': '3.052rem',
       '4xl': '2.441rem',
       '3xl': '1.953rem',
-      '2xl': '1.563rem',
-      
+      '2xl': '1.563rem',      
     },
     screens: {
       sm: "540px",
@@ -40,6 +42,9 @@ module.exports = {
         "body-color": "#637381",
         warning: "#FBBF24",
         navbar: "#19228F",
+        "title-primary": "#0a2540",
+        "title-secondary": "#635bff",
+        "title-tertiary": "#425466",
       },
       lineHeight: {
         
@@ -52,6 +57,11 @@ module.exports = {
         "switch-1": "0px 0px 5px rgba(0, 0, 0, 0.15)",
         testimonial: "0px 60px 120px -20px #EBEFFD",
       },
+      lineHeight: {
+        'extra-loose': '2.5',
+        '12': '4.6rem',
+      }
+
     },
   },
   plugins: [],

@@ -1,0 +1,34 @@
+#gradient-canvas {
+    width:100%;
+    height:100%;
+    --gradient-color-1: #a960ee; 
+  --gradient-color-2: #ff333d; 
+  --gradient-color-3: #90e0ff;  
+  --gradient-color-4: #ffcb57;
+    z-index:0;
+    clip-path: polygon(0 0, 100% 0, 100% 37%, 0% 100%);
+
+}
+
+.hero{
+    isolation: isolate;
+}
+
+.semi-transparent-text{
+    
+    color: #3a3a3a
+}
+
+.hero-section{
+    position:absolute;
+    top:150px;
+    text-align:left;
+
+}
+.title-header{
+    font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 550;
+    color: #3a3a3a;
+    z-index:100;
+    mix-blend-mode: color-burn;
+}
