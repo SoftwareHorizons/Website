@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./dist/output.css" rel="stylesheet">
   <link href="./assets/css/main.css" rel="stylesheet">
-
-  <!--add favicon-->
   <link rel="icon" href="./assets/images/logo/favicon.png" type="image/x-icon" />
   <title>Software Horizons</title>
 
@@ -16,17 +14,15 @@
 <body>
   <div class="hero">
     <canvas id="gradient-canvas"></canvas>
-
     <nav class="bg-transparent top-0 absolute w-full">
       <div class="mx-32 max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
-          
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center">
               <img class="block h-8 w-auto" src="./assets/images/logo/logo-white.svg" alt="Software Horizons">
               <a href="https://softwarehorizons.it" class="text-white mx-3 font-semibold">Software Horizons</a>
             </div>
-            <div class="hidden sm:ml-6 sm:block">
+            <div class="hidden md:ml-6 md:block">
               <div class="flex space-x-4">
     
                 <a href="#vantaggi" class="text-gray-100 hover:text-white transition px-3 py-2 rounded-md text-sm font-medium">Vantaggi</a>
@@ -44,12 +40,20 @@
     </nav>
     
     <div class="mx-auto lg:mx-32">
-      <div class="hero-section mx-16 mt-32 grid lg:grid-cols-2 gap-16 lg:gap-0 ">
-        <div class="m-auto">
-          <h1 class="title-header md:leading-12 leading-8 text-2xl md:text-10xl">Soluzioni<br>software<br>per aziende</h1>
+      <div class="hero-section mt-0 md:mt-32 grid lg:grid-cols-2 gap-16 lg:gap-0 ">
+        <div class="mx-auto">
+          <h1 class="title-header md:leading-12 leading-11 text-8xl md:text-10xl">Soluzioni<br>software<br>per aziende</h1>
           <p class="mt-12 w-3/4 text-title-tertiary">Enim ut amet et dolore id sunt quis commodo eu quis culpa minim. Ut adip isicing dolore eu culpa magna veniam aliqua nisi in. Duis tempor magna culpa nostrud minim commodo proident velit quis ut sint irure sunt commodo.</p>
-          <div class="mt-5 border-2 border-primary bg-primary hover:bg-transparent transition text-white hover:text-black inline-block px-4 py-2 rounded">
-            <a href="#horidesk" class="btn btn-primary">Scopri di più</a>
+          <div class="mt-5 border-2 border-primary bg-primary hover:bg-transparent transition text-white hover:text-black inline-block px-4 py-2 rounded-full">
+            <a href="#vantaggi" class="flex items-center">
+              Scopri di più
+              <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M4.293 7.293a1 1 0 011.414 0L10 11.586l4.293-4.293a1 1 0 111.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+
           </div>
         </div>
         <div>
@@ -59,8 +63,7 @@
     </div>
   </div>
 
-  <!-- ====== Features Section Start -->
-  <section class="mt-64 pt-20 lg:pt-[120px] pb-8 lg:pb-[70px] bg-[#f6f9fc]" id="vantaggi">
+  <section class="mt-32 md:mt-64 pt-20 lg:pt-[120px] pb-8 lg:pb-[70px] bg-[#f6f9fc]" id="vantaggi">
     <div class="container">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full px-4">
@@ -301,13 +304,11 @@
       </div>
     </div>
   </section>
-  <!-- ====== Features Section End -->
 
 
-  <!-- ====== Horidesk Section Start -->
   <section id="horidesk" class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-secondary">
-      <div class="grid lg:grid-cols-2 gap-16 flex">
-        <div class="lg:ml-32 mx-auto m-auto">
+      <div class="grid lg:grid-cols-2 gap-16 flex mx-16 md:mx-32 lg:mx-0">
+        <div class="lg:ml-32 m-auto">
           <span class="
                     text-sm
                     font-medium
@@ -342,7 +343,7 @@
         </div>
 
         <div class="m-auto">
-          <img src="./assets/images/horidesk/horidesk_content.png" alt="immagine-1" class="rounded-xl shadow-2xl
+          <img src="./assets/images/horidesk/horidesk_content.png" alt="immagine-1" class=" shadow-2xl
           ">
         </div>
       </div>
@@ -355,9 +356,9 @@
 
 
   <section id="horidesk1" class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-[#6BA4FF]">
-      <div class="grid lg:grid-cols-2 gap-16 flex">
+      <div class="grid lg:grid-cols-2 gap-16 flex mx-16 md:mx-32 lg:mx-0">
         <div class="m-auto">
-          <img src="./assets/images/horidesk/horidesk_content.png" alt="immagine-1" class="rounded-xl shadow-2xl
+          <img src="./assets/images/horidesk/horidesk_content.png" alt="immagine-1" class="shadow-2xl
 
           ">
         </div>
@@ -401,8 +402,8 @@
   </section>
 
   <section id="horidesk2" class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-secondary">
-    <div class="grid lg:grid-cols-2 gap-16 flex">
-      <div class="lg:ml-32 mx-auto">
+    <div class="grid lg:grid-cols-2 gap-16 flex mx-16 md:mx-32 lg:mx-0">
+      <div class="lg:ml-32 m-auto">
         <span class="
                   text-sm
                   font-medium
@@ -437,7 +438,7 @@
       </div>
 
       <div class="m-auto">
-        <img src="./assets/images/horidesk/horidesk_content.png" alt="immagine-1" class="rounded-xl shadow-2xl
+        <img src="./assets/images/horidesk/horidesk_content.png" alt="immagine-1" class=" shadow-2xl
 
         ">
       </div>
@@ -449,9 +450,7 @@
 
 </section>
 
-  <!-- ====== Horidesk Section End -->
 
-  <!-- ====== Contact Start ====== -->
   <section id="contact" class="py-20 md:py-[120px] relative bg-white" id="contattaci">
     <div class="
           absolute
@@ -546,7 +545,6 @@
       </div>
     </div>
   </section>
-  <!-- ====== Contact End ====== -->
 
   <script src="assets/js/index.js"></script>
 

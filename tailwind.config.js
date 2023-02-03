@@ -6,10 +6,14 @@ module.exports = {
       '10xl': '6rem',
       '9xl': '5rem',
       '8xl': '4rem',
+      '7xl': '3.5rem',
       '5xl': '3.052rem',
       '4xl': '2.441rem',
       '3xl': '1.953rem',
       '2xl': '1.563rem',      
+    },
+    lineHeight: {
+      "11": "3.5rem",
     },
     screens: {
       sm: "540px",
