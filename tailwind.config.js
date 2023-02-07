@@ -42,6 +42,9 @@ module.exports = {
         "dark-700": "#090e34b3",
         primary: "#2933B3",
         secondary: "#BAD4FF",
+        "red-secondary": "#EA3C43",
+        "red-tertiary": "#FF7B78",
+
         secondaryhover: "#A7C8FE",
         "body-color": "#637381",
         warning: "#FBBF24",
@@ -64,7 +67,12 @@ module.exports = {
       lineHeight: {
         'extra-loose': '2.5',
         '12': '4.6rem',
-      }
+      },
+      margin: {
+        '80': '20rem',
+        '128': '32rem',
+
+      },
 
     },
   },

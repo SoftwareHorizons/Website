@@ -12,58 +12,385 @@
 </head>
 
 <body>
-  <div class="hero">
-    <canvas id="gradient-canvas"></canvas>
-    <nav class="bg-transparent top-0 absolute w-full">
-      <div class="mx-32 max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div class="relative flex h-16 items-center justify-between">
-          <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <div class="flex flex-shrink-0 items-center">
-              <img class="block h-8 w-auto" src="./assets/images/logo/logo-white.svg" alt="Software Horizons">
-              <a href="https://softwarehorizons.it" class="text-white mx-3 font-semibold">Software Horizons</a>
+  <hero>
+  
+    
+      <div id="home" class="bg-primary">
+        <nav
+        class="w-full z-20 bg-navbar backdrop-filter backdrop-blur-lg bg-opacity-80 firefox:bg-opacity-30">
+        <div class="container">
+          <div class="flex items-center justify-between h-16">
+            <div class="flex">
+              <img class=" flex w-12 " src="./assets/images/logo/logo-white.svg" alt="Software Horizons">
+              <p class="m-auto ml-5 text-white font-semibold tracking-wide text-lg">Software Horizons</p>
             </div>
-            <div class="hidden md:ml-6 md:block">
-              <div class="flex space-x-4">
-    
-                <a href="#vantaggi" class="text-gray-100 hover:text-white transition px-3 py-2 rounded-md text-sm font-medium">Vantaggi</a>
-    
-                <a href="#horidesk" class="text-gray-100 hover:text-white transition px-3 py-2 rounded-md text-sm font-medium">Progetti</a>
-
-                <a href="#contattaci" class="text-gray-100 hover:text-white transition px-3 py-2 rounded-md text-sm font-medium">Contattaci</a>
-
-                  </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    
-    </nav>
-    
-    <div class="mx-auto lg:mx-32">
-      <div class="hero-section mt-0 md:mt-32 grid lg:grid-cols-2 gap-16 lg:gap-0 ">
-        <div class="mx-auto">
-          <h1 class="title-header md:leading-12 leading-11 text-8xl md:text-10xl">Soluzioni<br>software<br>per aziende</h1>
-          <p class="mt-12 w-3/4 text-title-tertiary">Enim ut amet et dolore id sunt quis commodo eu quis culpa minim. Ut adip isicing dolore eu culpa magna veniam aliqua nisi in. Duis tempor magna culpa nostrud minim commodo proident velit quis ut sint irure sunt commodo.</p>
-          <div class="mt-5 border-2 border-primary bg-primary hover:bg-transparent transition text-white hover:text-black inline-block px-4 py-2 rounded-full">
-            <a href="#vantaggi" class="flex items-center">
+            <a href="#horidesk" class="
+                  inline-flex
+                  items-center
+                  justify-center
+                  py-2
+                  px-4
+                  rounded
+                  text-black
+                  bg-white
+                  text-base
+                  font-medium
+                  hover:bg-opacity-90 hover:shadow-lg
+                  transition
+                  duration-300
+                  ease-in-out
+                ">
               Scopri di più
-              <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd"
-                  d="M4.293 7.293a1 1 0 011.414 0L10 11.586l4.293-4.293a1 1 0 111.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 010-1.414z"
-                  clip-rule="evenodd" />
-              </svg>
             </a>
-
           </div>
         </div>
-        <div>
-            <img class="lg:block hidden" src="./assets/images/hero/hero-image.png" alt="Hero image">
+      </nav>
+        <div class="pt-[60px]">
+          <div class="container">
+            <div class="flex flex-wrap items-center -mx-4">
+              <div class="w-full px-4">
+                <div class="
+              hero-content
+              text-center
+              max-w-[780px]
+              mx-auto
+              
+              
+            " >
+                  <h1 class="
+                text-white
+                font-bold
+                text-5xl
+                sm:text-4xl
+                md:text-[45px]
+                leading-snug
+                sm:leading-snug
+                md:leading-snug
+                mb-8
+              ">
+              Software e soluzioni per la tua <span class="underline underline-offset-4">azienda 4.0</span>                   </h1>
+                  <p class="
+                text-base
+                sm:text-lg sm:leading-relaxed
+                md:text-xl md:leading-relaxed
+                mx-auto
+                mb-10
+                text-[#e4e4e4]
+                max-w-[600px]
+              ">
+                    Soluzioni software gestionali personalizzate per soddisfare le esigenze uniche delle aziende, offrendo
+                    una
+                    gestione efficiente e precisa dei dati aziendali.
+                  </p>
+                </div>
+                  <div class="flex flex-wrap justify-center">
+                  <a href="#horidesk"
+                    class="
+                  inline-flex
+                  items-center
+                  justify-center
+                  py-2
+                  px-4
+                  rounded
+                  text-black
+                  bg-white
+                  text-base
+                  font-medium
+                  hover:bg-opacity-80 hover:shadow-lg
+                  transition
+                  duration-300
+                  ease-in-out
+                ">
+                    Scopri la nostra soluzione
+                  </a>
+  
+              </div>
+  
+              <div class="w-full px-4 pb-12">
+                <div class="mx-auto max-w-[845px] relative z-10">
+                  <div class="mt-16">
+                    <img src="assets/images/hero/hero-image.png" alt="hero"
+                      class="max-w-full mx-auto rounded-t-xl rounded-tr-xl" />
+                  </div>
+                  <!--Details-->
+                  <div class="absolute z-[-1] bottom-0 -left-9">
+                    <svg width="134" height="106" viewBox="0 0 134 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="1.66667" cy="104" r="1.66667" transform="rotate(-90 1.66667 104)" fill="#EA3C43" />
+                      <circle cx="16.3333" cy="104" r="1.66667" transform="rotate(-90 16.3333 104)" fill="#EA3C43" />
+                      <circle cx="31" cy="104" r="1.66667" transform="rotate(-90 31 104)" fill="#EA3C43" />
+                      <circle cx="45.6667" cy="104" r="1.66667" transform="rotate(-90 45.6667 104)" fill="#EA3C43" />
+                      <circle cx="60.3333" cy="104" r="1.66667" transform="rotate(-90 60.3333 104)" fill="#EA3C43" />
+                      <circle cx="88.6667" cy="104" r="1.66667" transform="rotate(-90 88.6667 104)" fill="#EA3C43" />
+                      <circle cx="117.667" cy="104" r="1.66667" transform="rotate(-90 117.667 104)" fill="#EA3C43" />
+                      <circle cx="74.6667" cy="104" r="1.66667" transform="rotate(-90 74.6667 104)" fill="#EA3C43" />
+                      <circle cx="103" cy="104" r="1.66667" transform="rotate(-90 103 104)" fill="#EA3C43" />
+                      <circle cx="132" cy="104" r="1.66667" transform="rotate(-90 132 104)" fill="#EA3C43" />
+                      <circle cx="1.66667" cy="89.3333" r="1.66667" transform="rotate(-90 1.66667 89.3333)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="89.3333" r="1.66667" transform="rotate(-90 16.3333 89.3333)"
+                        fill="#EA3C43" />
+                      <circle cx="31" cy="89.3333" r="1.66667" transform="rotate(-90 31 89.3333)" fill="#EA3C43" />
+                      <circle cx="45.6667" cy="89.3333" r="1.66667" transform="rotate(-90 45.6667 89.3333)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="89.3338" r="1.66667" transform="rotate(-90 60.3333 89.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="89.3338" r="1.66667" transform="rotate(-90 88.6667 89.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="89.3338" r="1.66667" transform="rotate(-90 117.667 89.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="89.3338" r="1.66667" transform="rotate(-90 74.6667 89.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="103" cy="89.3338" r="1.66667" transform="rotate(-90 103 89.3338)" fill="#EA3C43" />
+                      <circle cx="132" cy="89.3338" r="1.66667" transform="rotate(-90 132 89.3338)" fill="#EA3C43" />
+                      <circle cx="1.66667" cy="74.6673" r="1.66667" transform="rotate(-90 1.66667 74.6673)"
+                        fill="#EA3C43" />
+                      <circle cx="1.66667" cy="31.0003" r="1.66667" transform="rotate(-90 1.66667 31.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="74.6668" r="1.66667" transform="rotate(-90 16.3333 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="31.0003" r="1.66667" transform="rotate(-90 16.3333 31.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="31" cy="74.6668" r="1.66667" transform="rotate(-90 31 74.6668)" fill="#EA3C43" />
+                      <circle cx="31" cy="31.0003" r="1.66667" transform="rotate(-90 31 31.0003)" fill="#EA3C43" />
+                      <circle cx="45.6667" cy="74.6668" r="1.66667" transform="rotate(-90 45.6667 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="45.6667" cy="31.0003" r="1.66667" transform="rotate(-90 45.6667 31.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="74.6668" r="1.66667" transform="rotate(-90 60.3333 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="31.0001" r="1.66667" transform="rotate(-90 60.3333 31.0001)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="74.6668" r="1.66667" transform="rotate(-90 88.6667 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="31.0001" r="1.66667" transform="rotate(-90 88.6667 31.0001)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="74.6668" r="1.66667" transform="rotate(-90 117.667 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="31.0001" r="1.66667" transform="rotate(-90 117.667 31.0001)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="74.6668" r="1.66667" transform="rotate(-90 74.6667 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="31.0001" r="1.66667" transform="rotate(-90 74.6667 31.0001)"
+                        fill="#EA3C43" />
+                      <circle cx="103" cy="74.6668" r="1.66667" transform="rotate(-90 103 74.6668)" fill="#EA3C43" />
+                      <circle cx="103" cy="31.0001" r="1.66667" transform="rotate(-90 103 31.0001)" fill="#EA3C43" />
+                      <circle cx="132" cy="74.6668" r="1.66667" transform="rotate(-90 132 74.6668)" fill="#EA3C43" />
+                      <circle cx="132" cy="31.0001" r="1.66667" transform="rotate(-90 132 31.0001)" fill="#EA3C43" />
+                      <circle cx="1.66667" cy="60.0003" r="1.66667" transform="rotate(-90 1.66667 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="1.66667" cy="16.3336" r="1.66667" transform="rotate(-90 1.66667 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="60.0003" r="1.66667" transform="rotate(-90 16.3333 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="16.3336" r="1.66667" transform="rotate(-90 16.3333 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="31" cy="60.0003" r="1.66667" transform="rotate(-90 31 60.0003)" fill="#EA3C43" />
+                      <circle cx="31" cy="16.3336" r="1.66667" transform="rotate(-90 31 16.3336)" fill="#EA3C43" />
+                      <circle cx="45.6667" cy="60.0003" r="1.66667" transform="rotate(-90 45.6667 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="45.6667" cy="16.3336" r="1.66667" transform="rotate(-90 45.6667 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="60.0003" r="1.66667" transform="rotate(-90 60.3333 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="16.3336" r="1.66667" transform="rotate(-90 60.3333 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="60.0003" r="1.66667" transform="rotate(-90 88.6667 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="16.3336" r="1.66667" transform="rotate(-90 88.6667 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="60.0003" r="1.66667" transform="rotate(-90 117.667 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="16.3336" r="1.66667" transform="rotate(-90 117.667 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="60.0003" r="1.66667" transform="rotate(-90 74.6667 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="16.3336" r="1.66667" transform="rotate(-90 74.6667 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="103" cy="60.0003" r="1.66667" transform="rotate(-90 103 60.0003)" fill="#EA3C43" />
+                      <circle cx="103" cy="16.3336" r="1.66667" transform="rotate(-90 103 16.3336)" fill="#EA3C43" />
+                      <circle cx="132" cy="60.0003" r="1.66667" transform="rotate(-90 132 60.0003)" fill="#EA3C43" />
+                      <circle cx="132" cy="16.3336" r="1.66667" transform="rotate(-90 132 16.3336)" fill="#EA3C43" />
+                      <circle cx="1.66667" cy="45.3336" r="1.66667" transform="rotate(-90 1.66667 45.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="1.66667" cy="1.66683" r="1.66667" transform="rotate(-90 1.66667 1.66683)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="45.3336" r="1.66667" transform="rotate(-90 16.3333 45.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="1.66683" r="1.66667" transform="rotate(-90 16.3333 1.66683)"
+                        fill="#EA3C43" />
+                      <circle cx="31" cy="45.3336" r="1.66667" transform="rotate(-90 31 45.3336)" fill="#EA3C43" />
+                      <circle cx="31" cy="1.66683" r="1.66667" transform="rotate(-90 31 1.66683)" fill="#EA3C43" />
+                      <circle cx="45.6667" cy="45.3336" r="1.66667" transform="rotate(-90 45.6667 45.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="45.6667" cy="1.66683" r="1.66667" transform="rotate(-90 45.6667 1.66683)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="45.3338" r="1.66667" transform="rotate(-90 60.3333 45.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="1.66707" r="1.66667" transform="rotate(-90 60.3333 1.66707)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="45.3338" r="1.66667" transform="rotate(-90 88.6667 45.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="1.66707" r="1.66667" transform="rotate(-90 88.6667 1.66707)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="45.3338" r="1.66667" transform="rotate(-90 117.667 45.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="1.66707" r="1.66667" transform="rotate(-90 117.667 1.66707)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="45.3338" r="1.66667" transform="rotate(-90 74.6667 45.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="1.66707" r="1.66667" transform="rotate(-90 74.6667 1.66707)"
+                        fill="#EA3C43" />
+                      <circle cx="103" cy="45.3338" r="1.66667" transform="rotate(-90 103 45.3338)" fill="#EA3C43" />
+                      <circle cx="103" cy="1.66707" r="1.66667" transform="rotate(-90 103 1.66707)" fill="#EA3C43" />
+                      <circle cx="132" cy="45.3338" r="1.66667" transform="rotate(-90 132 45.3338)" fill="#EA3C43" />
+                      <circle cx="132" cy="1.66707" r="1.66667" transform="rotate(-90 132 1.66707)" fill="#EA3C43" />
+                    </svg>
+                  </div>
+                  <div class="absolute z-[-1] -top-6 -right-6">
+                    <svg width="134" height="106" viewBox="0 0 134 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="1.66667" cy="104" r="1.66667" transform="rotate(-90 1.66667 104)" fill="#EA3C43" />
+                      <circle cx="16.3333" cy="104" r="1.66667" transform="rotate(-90 16.3333 104)" fill="#EA3C43" />
+                      <circle cx="31" cy="104" r="1.66667" transform="rotate(-90 31 104)" fill="#EA3C43" />
+                      <circle cx="45.6667" cy="104" r="1.66667" transform="rotate(-90 45.6667 104)" fill="#EA3C43" />
+                      <circle cx="60.3333" cy="104" r="1.66667" transform="rotate(-90 60.3333 104)" fill="#EA3C43" />
+                      <circle cx="88.6667" cy="104" r="1.66667" transform="rotate(-90 88.6667 104)" fill="#EA3C43" />
+                      <circle cx="117.667" cy="104" r="1.66667" transform="rotate(-90 117.667 104)" fill="#EA3C43" />
+                      <circle cx="74.6667" cy="104" r="1.66667" transform="rotate(-90 74.6667 104)" fill="#EA3C43" />
+                      <circle cx="103" cy="104" r="1.66667" transform="rotate(-90 103 104)" fill="#EA3C43" />
+                      <circle cx="132" cy="104" r="1.66667" transform="rotate(-90 132 104)" fill="#EA3C43" />
+                      <circle cx="1.66667" cy="89.3333" r="1.66667" transform="rotate(-90 1.66667 89.3333)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="89.3333" r="1.66667" transform="rotate(-90 16.3333 89.3333)"
+                        fill="#EA3C43" />
+                      <circle cx="31" cy="89.3333" r="1.66667" transform="rotate(-90 31 89.3333)" fill="#EA3C43" />
+                      <circle cx="45.6667" cy="89.3333" r="1.66667" transform="rotate(-90 45.6667 89.3333)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="89.3338" r="1.66667" transform="rotate(-90 60.3333 89.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="89.3338" r="1.66667" transform="rotate(-90 88.6667 89.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="89.3338" r="1.66667" transform="rotate(-90 117.667 89.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="89.3338" r="1.66667" transform="rotate(-90 74.6667 89.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="103" cy="89.3338" r="1.66667" transform="rotate(-90 103 89.3338)" fill="#EA3C43" />
+                      <circle cx="132" cy="89.3338" r="1.66667" transform="rotate(-90 132 89.3338)" fill="#EA3C43" />
+                      <circle cx="1.66667" cy="74.6673" r="1.66667" transform="rotate(-90 1.66667 74.6673)"
+                        fill="#EA3C43" />
+                      <circle cx="1.66667" cy="31.0003" r="1.66667" transform="rotate(-90 1.66667 31.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="74.6668" r="1.66667" transform="rotate(-90 16.3333 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="31.0003" r="1.66667" transform="rotate(-90 16.3333 31.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="31" cy="74.6668" r="1.66667" transform="rotate(-90 31 74.6668)" fill="#EA3C43" />
+                      <circle cx="31" cy="31.0003" r="1.66667" transform="rotate(-90 31 31.0003)" fill="#EA3C43" />
+                      <circle cx="45.6667" cy="74.6668" r="1.66667" transform="rotate(-90 45.6667 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="45.6667" cy="31.0003" r="1.66667" transform="rotate(-90 45.6667 31.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="74.6668" r="1.66667" transform="rotate(-90 60.3333 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="31.0001" r="1.66667" transform="rotate(-90 60.3333 31.0001)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="74.6668" r="1.66667" transform="rotate(-90 88.6667 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="31.0001" r="1.66667" transform="rotate(-90 88.6667 31.0001)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="74.6668" r="1.66667" transform="rotate(-90 117.667 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="31.0001" r="1.66667" transform="rotate(-90 117.667 31.0001)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="74.6668" r="1.66667" transform="rotate(-90 74.6667 74.6668)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="31.0001" r="1.66667" transform="rotate(-90 74.6667 31.0001)"
+                        fill="#EA3C43" />
+                      <circle cx="103" cy="74.6668" r="1.66667" transform="rotate(-90 103 74.6668)" fill="#EA3C43" />
+                      <circle cx="103" cy="31.0001" r="1.66667" transform="rotate(-90 103 31.0001)" fill="#EA3C43" />
+                      <circle cx="132" cy="74.6668" r="1.66667" transform="rotate(-90 132 74.6668)" fill="#EA3C43" />
+                      <circle cx="132" cy="31.0001" r="1.66667" transform="rotate(-90 132 31.0001)" fill="#EA3C43" />
+                      <circle cx="1.66667" cy="60.0003" r="1.66667" transform="rotate(-90 1.66667 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="1.66667" cy="16.3336" r="1.66667" transform="rotate(-90 1.66667 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="60.0003" r="1.66667" transform="rotate(-90 16.3333 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="16.3336" r="1.66667" transform="rotate(-90 16.3333 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="31" cy="60.0003" r="1.66667" transform="rotate(-90 31 60.0003)" fill="#EA3C43" />
+                      <circle cx="31" cy="16.3336" r="1.66667" transform="rotate(-90 31 16.3336)" fill="#EA3C43" />
+                      <circle cx="45.6667" cy="60.0003" r="1.66667" transform="rotate(-90 45.6667 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="45.6667" cy="16.3336" r="1.66667" transform="rotate(-90 45.6667 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="60.0003" r="1.66667" transform="rotate(-90 60.3333 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="16.3336" r="1.66667" transform="rotate(-90 60.3333 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="60.0003" r="1.66667" transform="rotate(-90 88.6667 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="16.3336" r="1.66667" transform="rotate(-90 88.6667 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="60.0003" r="1.66667" transform="rotate(-90 117.667 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="16.3336" r="1.66667" transform="rotate(-90 117.667 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="60.0003" r="1.66667" transform="rotate(-90 74.6667 60.0003)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="16.3336" r="1.66667" transform="rotate(-90 74.6667 16.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="103" cy="60.0003" r="1.66667" transform="rotate(-90 103 60.0003)" fill="#EA3C43" />
+                      <circle cx="103" cy="16.3336" r="1.66667" transform="rotate(-90 103 16.3336)" fill="#EA3C43" />
+                      <circle cx="132" cy="60.0003" r="1.66667" transform="rotate(-90 132 60.0003)" fill="#EA3C43" />
+                      <circle cx="132" cy="16.3336" r="1.66667" transform="rotate(-90 132 16.3336)" fill="#EA3C43" />
+                      <circle cx="1.66667" cy="45.3336" r="1.66667" transform="rotate(-90 1.66667 45.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="1.66667" cy="1.66683" r="1.66667" transform="rotate(-90 1.66667 1.66683)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="45.3336" r="1.66667" transform="rotate(-90 16.3333 45.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="16.3333" cy="1.66683" r="1.66667" transform="rotate(-90 16.3333 1.66683)"
+                        fill="#EA3C43" />
+                      <circle cx="31" cy="45.3336" r="1.66667" transform="rotate(-90 31 45.3336)" fill="#EA3C43" />
+                      <circle cx="31" cy="1.66683" r="1.66667" transform="rotate(-90 31 1.66683)" fill="#EA3C43" />
+                      <circle cx="45.6667" cy="45.3336" r="1.66667" transform="rotate(-90 45.6667 45.3336)"
+                        fill="#EA3C43" />
+                      <circle cx="45.6667" cy="1.66683" r="1.66667" transform="rotate(-90 45.6667 1.66683)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="45.3338" r="1.66667" transform="rotate(-90 60.3333 45.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="60.3333" cy="1.66707" r="1.66667" transform="rotate(-90 60.3333 1.66707)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="45.3338" r="1.66667" transform="rotate(-90 88.6667 45.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="88.6667" cy="1.66707" r="1.66667" transform="rotate(-90 88.6667 1.66707)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="45.3338" r="1.66667" transform="rotate(-90 117.667 45.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="117.667" cy="1.66707" r="1.66667" transform="rotate(-90 117.667 1.66707)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="45.3338" r="1.66667" transform="rotate(-90 74.6667 45.3338)"
+                        fill="#EA3C43" />
+                      <circle cx="74.6667" cy="1.66707" r="1.66667" transform="rotate(-90 74.6667 1.66707)"
+                        fill="#EA3C43" />
+                      <circle cx="103" cy="45.3338" r="1.66667" transform="rotate(-90 103 45.3338)" fill="#EA3C43" />
+                      <circle cx="103" cy="1.66707" r="1.66667" transform="rotate(-90 103 1.66707)" fill="#EA3C43" />
+                      <circle cx="132" cy="45.3338" r="1.66667" transform="rotate(-90 132 45.3338)" fill="#EA3C43" />
+                      <circle cx="132" cy="1.66707" r="1.66667" transform="rotate(-90 132 1.66707)" fill="#EA3C43" />
+                    </svg>
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+    </hero>
+  </div
+  >
 
-  <section class="mt-32 md:mt-64 pt-20 lg:pt-[120px] pb-8 lg:pb-[70px] bg-[#f6f9fc]" id="vantaggi">
+  <section class="pt-20 lg:pt-[120px] pb-8 lg:pb-[70px] bg-[#f6f9fc]" id="vantaggi">
     <div class="container">
       <div class="flex flex-wrap -mx-4">
         <div class="w-full px-4">
@@ -73,11 +400,13 @@
             </span>
             <h2 class="
                     font-bold
-                    text-3xl
+                    text-4xl
+                    leading-thight
                     sm:text-4xl
                     md:text-[42px]
                     text-dark
                     mb-4
+                    text-title-primary
                   ">
               Principali Vantaggi delle nostre soluzioni
             </h2>
@@ -101,7 +430,7 @@
       </div>
       <div class="flex flex-wrap -mx-4">
         <div class="w-full md:w-1/2 lg:w-1/4 px-4">
-          <div class=" mb-12 group wow fadeInUp" data-wow-delay=".1s">
+          <div class=" mb-12 group">
             <div class="
                     w-[70px]
                     h-[70px]
@@ -137,19 +466,16 @@
                   fill="white" />
               </svg>
             </div>
-            <h4 class="font-bold text-xl text-dark mb-3">
+            <h4 class="font-bold text-3xl text-dark mb-3">
               Semplice e intuitivo
             </h4>
             <p class="text-body-color mb-8 lg:mb-11">
               L'interfaccia del software permette un utilizzo user friendly
             </p>
-            <a href="#horidesk" class="font-medium text-base text-body-color hover:text-primary">
-              Scopri di più
-            </a>
           </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/4 px-4">
-          <div class=" mb-12 group wow fadeInUp" data-wow-delay=".15s">
+          <div class=" mb-12 group">
             <div class="
                     w-[70px]
                     h-[70px]
@@ -185,19 +511,16 @@
                   fill="white" />
               </svg>
             </div>
-            <h4 class="font-bold text-xl text-dark mb-3">
+            <h4 class="font-bold text-3xl text-dark mb-3">
               Aggiornamenti
             </h4>
             <p class="text-body-color mb-8 lg:mb-11">
               Garantiamo aggiornamenti e supporto per le richieste future del cliente.
             </p>
-            <a href="#horidesk" class="font-medium text-base text-body-color hover:text-primary">
-              Scopri di più
-            </a>
           </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/4 px-4">
-          <div class=" mb-12 group wow fadeInUp" data-wow-delay=".2s">
+          <div class=" mb-12 group">
             <div class="
                     w-[70px]
                     h-[70px]
@@ -242,19 +565,16 @@
                   fill="white" />
               </svg>
             </div>
-            <h4 class="font-bold text-xl text-dark mb-3">
+            <h4 class="font-bold text-3xl text-dark mb-3">
               Soluzioni versatili
             </h4>
             <p class="text-body-color mb-8 lg:mb-11">
               Possibilità di utilizzare le nostre soluzioni su qualsiasi dispositivo
             </p>
-            <a href="#horidesk" class="font-medium text-base text-body-color hover:text-primary">
-              Scopri di più
-            </a>
           </div>
         </div>
         <div class="w-full md:w-1/2 lg:w-1/4 px-4">
-          <div class="mb-12 group wow fadeInUp" data-wow-delay=".25s">
+          <div class="mb-12 group">
             <div class="
                     w-[70px]
                     h-[70px]
@@ -290,15 +610,12 @@
                   fill="white" />
               </svg>
             </div>
-            <h4 class="font-bold text-xl text-dark mb-3">
+            <h4 class="font-bold text-3xl text-dark mb-3">
               Gestione immediata
             </h4>
             <p class="text-body-color mb-8 lg:mb-11">
               Offriamo tutto il necessario per tenere sotto controllo la tua azienda
             </p>
-            <a href="#horidesk" class="font-medium text-base text-body-color hover:text-primary">
-              Scopri di più
-            </a>
           </div>
         </div>
       </div>
@@ -307,7 +624,7 @@
 
 
   <section id="horidesk" class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-secondary">
-      <div class="grid lg:grid-cols-2 gap-16 flex mx-16 md:mx-32 lg:mx-0">
+      <div class="grid lg:grid-cols-2 gap-16 flex mx-5 md:mx-32 lg:mx-0">
         <div class="lg:ml-32 m-auto">
           <span class="
                     text-sm
@@ -315,7 +632,7 @@
                     text-white
                     py-2
                     px-5
-                    bg-primary
+                    bg-red-secondary
                     inline-block
                     mb-5
                   ">
@@ -329,12 +646,12 @@
                     leading-normal
                     text-dark
                     mb-6
-                    text-gray-900
+                    text-title-primary
                   ">
             Un unico software per tutte le <span class="underline-offset-4	underline">esigenze aziendali</span>
           </h2>
 
-          <p class="text-2xl text-gray-700 mb-9 sm:leading-9 leading-relaxed">
+          <p class="text-xl md:text-2xl text-gray-700 mb-9 sm:leading-9 leading-relaxed">
             Horidesk integra in un unico gestionale tutte le funzionalità utili per il ciclo di vita della tua
             impresa, grazie a moduli integrati in grado di migliorare l’efficienza di tutti i processi aziendali.
 
@@ -356,7 +673,7 @@
 
 
   <section id="horidesk1" class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-[#6BA4FF]">
-      <div class="grid lg:grid-cols-2 gap-16 flex mx-16 md:mx-32 lg:mx-0">
+      <div class="grid lg:grid-cols-2 gap-16 flex mx-5 md:mx-32 lg:mx-0">
         <div class="m-auto">
           <img src="./assets/images/horidesk/horidesk_content.png" alt="immagine-1" class="shadow-2xl
 
@@ -370,7 +687,7 @@
                     text-white
                     py-2
                     px-5
-                    bg-primary
+                    bg-red-tertiary
                     inline-block
                     mb-5
                   ">
@@ -384,12 +701,12 @@
                     leading-normal
                     text-dark
                     mb-6
-                    text-gray-900
+                    text-title-primary
                   ">
             Un unico software per tutte le <span class="underline-offset-4	underline">esigenze aziendali</span>
           </h2>
 
-          <p class="text-2xl text-gray-700 mb-9 sm:leading-9 leading-relaxed">
+          <p class="text-xl md:text-2xl text-gray-700 mb-9 sm:leading-9 leading-relaxed">
             Horidesk integra in un unico gestionale tutte le funzionalità utili per il ciclo di vita della tua
             impresa, grazie a moduli integrati in grado di migliorare l’efficienza di tutti i processi aziendali.
 
@@ -402,7 +719,7 @@
   </section>
 
   <section id="horidesk2" class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-secondary">
-    <div class="grid lg:grid-cols-2 gap-16 flex mx-16 md:mx-32 lg:mx-0">
+    <div class="grid lg:grid-cols-2 gap-16 flex mx-5 md:mx-32 lg:mx-0">
       <div class="lg:ml-32 m-auto">
         <span class="
                   text-sm
@@ -410,7 +727,7 @@
                   text-white
                   py-2
                   px-5
-                  bg-primary
+                  bg-red-secondary
                   inline-block
                   mb-5
                 ">
@@ -424,12 +741,12 @@
                   leading-normal
                   text-dark
                   mb-6
-                  text-gray-900
+                  text-title-primary
                 ">
           Un unico software per tutte le <span class="underline-offset-4	underline">esigenze aziendali</span>
         </h2>
 
-        <p class="text-2xl text-gray-700 mb-9 sm:leading-9 leading-relaxed">
+        <p class="text-xl md:text-3xl text-gray-700 mb-9 sm:leading-9 leading-relaxed">
           Horidesk integra in un unico gestionale tutte le funzionalità utili per il ciclo di vita della tua
           impresa, grazie a moduli integrati in grado di migliorare l’efficienza di tutti i processi aziendali.
 
